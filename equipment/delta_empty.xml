@@ -1,0 +1,38 @@
+<Equipment>
+
+	<!--
+		these control where the Empty option shows up in the customization screen (for which slot/class combo)
+	-->
+
+	<Bind eqp="EmptyUtility" to="Delta"/>
+	<Empty name="EmptyUtility" inventoryBinding="UtilityPouch" tooltip="@menu_cust_item_empty">
+	</Empty>
+	
+	<Bind eqp="EmptyPrimary" to="Delta"/>
+	<Empty name="EmptyPrimary" inventoryBinding="PrimaryWeapon" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptySecondary" to="Delta"/>
+	<Empty name="EmptySecondary" inventoryBinding="SecondaryWeapon" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptyHelmet" to="Delta"/>
+	<Empty name="EmptyHelmet" inventoryBinding="Helmet" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptyHelmetNVG" to="Delta"/>
+	<Empty name="EmptyHelmetNVG" inventoryBinding="HelmetNVG" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptySupportGear" to="Delta"/>
+	<Empty name="EmptySupportGear" inventoryBinding="SupportGear1" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptyPrimaryMuzzle" to="Delta"/>
+	<Empty name="EmptyPrimaryMuzzle" inventoryBinding="PrimaryWeaponMuzzle" tooltip="@menu_cust_item_empty">
+	</Empty>
+
+	<Bind eqp="EmptySecondaryMuzzle" to="Delta"/>
+	<Empty name="EmptySecondaryMuzzle" inventoryBinding="SecondaryWeaponMuzzle" tooltip="@menu_cust_item_empty">
+	</Empty>
+</Equipment>

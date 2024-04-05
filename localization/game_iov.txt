@@ -1,0 +1,898 @@
+#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+#
+# Units
+#
+@unit_iov_aim_name=Alliance of International Mercenary
+@unit_iov_aim_description=The Association of International Mercenaries, Incorporated (A.I.M. Inc.) is the mercenaries' employer in the Jagged Alliance series.
+@unit_aim_rifleman=Rifleman
+@unit_aim_gunner=Gunner
+@unit_aim_sniper=Sniper
+@unit_aim_grenadier=Grenadier
+@unit_aim_pointman=Pointman
+@unit_aim_spy=Undercover Spy
+
+@unit_iov_plasof_name=Chinese Joint Task SOF
+@unit_iov_plasof_description=The PLA engineers and police unit participate in UN, however, when threatened by terrorists, They drew out the elites to form Joint Task Force
+@unit_pla_assault=Rifleman
+@unit_pla_gunner=Machine gunner
+@unit_pla_sniper=Sniper
+@unit_pla_grenadier=Grenadier
+@unit_pla_scout=Scout
+@unit_pla_blackops=BLACK OPS
+@unit_pla_cat=CAT Team
+
+#
+# Trooper Ranks
+#
+
+@firearm_apc9kscw_desc=The SCW requirement stems from the need for a highly concealable Sub Compact Weapon for the US Army's Personal Security Detail (PSD), which is responsible for close protection of the High Risk Personnel (HRP). the SCW requires the ability to fire accurately at close range while engaging threat personnel with a large number of kills and minimising collateral damage. But there are also operative organisations that see the advantages of the SCW's ease of concealment and firepower.
+
+<!-- IOV GUNs -->
+# AR系列
+@firearm_mk18mod0_name=Mk18 M0d0
+@firearm_mk18mod0_desc=10-inch CQBR M4A1. The main force of Naval Special Warfare forces before 2004.
+@firearm_mk18mod0Sup_name=Mk18 Mod0 Suppressed
+@firearm_mk18mod0Sup_desc=10-inch CQBR M4A1. The main force of Naval Special Warfare forces before 2004. This SBR equip a sound suppressor.
+
+@firearm_m4_recce_name=M4 RECCE Rifle
+@firearm_m4_recce_desc=The Recon Rifles built by some special operations. It can make medium range engagements precisely.
+@firearm_RecceClone_name=RECCE Rifle Clone
+@firearm_RecceClone_desc=Mimicking the rifle fitted to the Delta Force in the 2003s, we fitted the 16-inch barrel semi-automatic AR with Armalite OD FF tube.
+
+@firearm_xm177e1iov_name=XM177E1 SMG
+@firearm_xm177e1iov_desc=The old CAR-15 submachine guns that were scattered from Southeast Asia to the rest of the world are still available and are used in some poor countries.
+
+@firearm_xm177e2_name=XM177E2
+@firearm_xm177e2_desc=The XM177E2 is a U.S. Special Operations icon specifically built for the covert combat needs of MACV-SOG in Vietnam. In recognition of the 50th Anniversary of the legendary XM177E2 Commando, TROY has taken responsibility to meticulously recreate it, to exacting 1967 U.S. military specifications, ensuring the historical accuracy and functional reliability of this venerable carbine./nSo, gunfuns's money is really easy to cheat.
+@firearm_xm177e2_xm148_name=XM177E2/XM148
+@firearm_xm177e2_xm148_desc=The XM148 is an experimental 40mm grenade launcher designed to fit under M16-style rifles. Designed to replace the M79, it saw field testing in the Vietnam War, but had many flaws in its design and was eventually replaced by the M203.
+
+@firearm_colt653iov_name=CAR-15
+@firearm_colt653iov_desc=The Colt 653 is carbine version of the early M16A1. While the M193 gauge round is a little less accurate at long range than the M855 gauge round, it has a little more stopping power at close range. This weapon is still in use in some third world countries.
+@firearm_colt653m203iov_name=CAR-15 / M203
+@firearm_colt653Markiov_name=CAR-15 DMS
+@firearm_colt653Markiov_desc=Using carefully selected Colt 653 and carefully selected bullets with scopes mounted is called CAR-15 Designated Marksman System.
+
+@firearm_ro727_carabine_name=CAR-15
+@firearm_ro727_carabine_desc=The Colt R0727 carbine used by Delta Force in late 1980s to early 1990s.
+
+@firearm_ro727sup_carabine_name=CAR-15 Suppressed
+@firearm_ro727sup_carabine_desc=The Colt R0727 carbine equip OPS 3rd sound suppressed.
+
+@firearm_colt635_name=Colt 635 SMG
+@firearm_colt635_desc=The AR15-based submachine gun, also known as the Colt 9mm SMG, can be easily operated by those accustomed to the M16.
+@firearm_colt635Sup_name=Colt 635 Suppressed
+
+@firearm_hk416_10_name=HK416 10"
+@firearm_hk416_10_desc=The HK416D10 is the 10 inch barreled version of the German's take on the AR-15 platform. The rifle shares many of the same traits as the M4 but with lower stopping power and increased maneuverability. 
+@firearm_hk416_10sup_name=HK416 10" Suppressed
+@firearm_hk416_10sup_desc=10-inch HK416D equip sound suppressor. The main force of Tier 1 SOF, include the RRC (Regimental Reconnaissance Company, is an elite unit within the 75th Ranger Regiment Special Troops Battalion).
+
+@firearm_m4urgi_iname=M4A1 URG-I
+@firearm_m4urgi_idesc=Improved on SOPMOD II, it is lighter and the floating handguard helps to improve the accuracy. Currently being phased into service with the US Army’s various Special Forces Groups and the 75th Ranger Regiment. Informally referred to as SOPMOD III.
+@firearm_m4urgisup_iname=M4A1 URG-I Suppressed
+
+@firearm_m4_delta_carabine_name=M4A1 Delta
+@firearm_m4_delta_carabine_desc=A Delta Force upgraded M4A1 with KAC MRE handguard, and the REDI-MAG keeps a spare AR-15 magazine handy and attached to the rifle for fast reload. And this man use 40 roudns long magazine.
+@firearm_m4_delta_subcarabine_name=M4A1 Delta Suppressed
+
+@firearm_gau5a_name=GAU-5A ASDW
+@firearm_gau5a_desc=Originally developed as a Aircrew Self-Defense Weapon, in the undercover mission if you takedown it into two parts and hide under the coat it is not easy to be found by the enemy, but in order to reduce the volume easy to hide, so we only use iron sights. And when using it you have to take the time to put it together first.
+
+# FN公司
+
+@firearm_mk17con556_name=Mk17-5.56
+@firearm_mk17con556_desc=This Mk17 use the conversion kit it for turned 7.62mm to 5.56mm. Because officials thought this would save on daily costs, they took back the original MK16 and had the manufacturer provide accessories to convert the MK17 to 5.56.
+@firearm_mk17con556sup_name=Mk17-5.56 Suppressed
+
+@firearm_mk17con556eglm_name=Mk17-5.56/Mk13 EGLM
+@firearm_mk17con556Supeglm_name=Mk17-5.56/Mk13 EGLM Suppressed
+@firearm_mk17cqc_eglm_name=Mk17 CQC/Mk13 EGLM
+@firearm_mk17std_eglm_name=Mk17 STD/Mk13 EGLM
+@firearm_mk13eglm_desc=The EGLM grenade launcher produced by FN is specifically paired with the SCAR family to deliver 40mm grenades to targets faster and more rapidly.
+
+@firearm_mk46mod1_name=Mk46 MOD 1
+@firearm_mk46mod1_desc=The Mk.46 MOD1 is a variant of the M249 light machine gun. Created in response to the needs of special operations. Its belt fed 100-round 5.56mm allow for continuous suppressing fire.
+@firearm_mk46mod1sup_name=Mk46 MOD 1 Suppressed
+
+@firearm_minimi_proto_name=FN Minimi Early 
+@firearm_minimi_proto_desc=This FN early model of Minimi light machinegun have adjusted to max-high RPM.
+
+@firearm_mk48mod1_name=Mk48 Mod 1
+@firearm_mk48mod1_desc=This Mk48 machinegun attachment telescopic butt-stock, and equip a 50 round soft nutsack pack for high mobile.
+@firearm_mk48mod1sup_name=Mk48 Mod 1 Suppressed
+
+@firearm_fncsr20_name=FN CSR-20
+@firearm_fncsr20_desc=The  new CSR-20 is the same gun, with the same trigger, stock, upper, lower, rails, finish, everything as the gun they released few years, just in a different chambering with a different barrel assembly. It just in the caliber more recently chosen by US Special Operations Command.
+@firearm_fncsr20Sup_name=FN CSR-20 Suppressed
+
+@firearm_p90tac_name=FN P90 TAC
+@firearm_p90tac_desc=Designed in the early 90s for special military and counter terrorist units, the P90 is a compact bullpup PDW that notably features a top mounted 50-round magazine and boasts a rate of fire of 900 RPM. Because of this, the P90 is an absolutely devastating tool in CQB environments.
+@firearm_p90tacsup_name=FN P90 TAC Suppressed
+@firearm_p90tacsup_desc=P90 outfitted with the FN Attenuator suppressor. It'll be quiet, but with full power loads it won't be as quiet as you think. Added weight and length of the suppressor will reduce weapon handling.
+
+@firearm_l1a1bitch_name=L1A1 "the Bitch"
+@firearm_l1a1bitch_desc="the Bitch" was modify by the Australia SASR for LRRP. It can full auto fire and use 30 rounds L2A1 magazine.
+@firearm_l1a1bitchgl_name=L1A1 "the Bitch" UGL
+@firearm_l1a1bitchgl_desc="the Bitch" was modify by the Australia SASR for LRRP. It can full auto fire and use 30 rounds L2A1 magazine. Some body equip a Underbarrel Grenade Launcher.
+
+@firearm_fnbhp2202_name=FN Hi-Power 2202
+@firearm_fnbhp2202_desc=In order to compete with Springfield SA-35 for the market, it was relaunched as a sentimental item after improving its own shortcomings.
+
+# SIG公司
+
+@firearm_siglmg68_name=SIG LMG-6.8
+@firearm_siglmg68_desc=SIG participates in NGSW samples, this .277 FURY caliber can penetrate body armor at longer range, but because the muzzle shock is too large, it is recommended to be used with a sound suppressed. The Rangers are currently testing this weapon.
+@firearm_siglmg68sup_name=SIG LMG-6.8 Suppressed
+@firearm_siglmg68sup_desc=Having a sound suppressed on doesn't make you any quieter, but it helps control burst accuracy.
+
+@firearm_mcxlvaw_iname=MCX LVAW
+@firearm_mcxlvaw_idesc=Based on the SURG program, initially only the .300 BLK silencer upper was procured for covert operations, later the complete MCX variant was procured directly. Initially adopted in Delta Force, it was later expanded to other units.
+
+@firearm_mcxvirtus_name=SIG MCX Virtus
+@firearm_mcxvirtus_desc=Most recently, since 2018, Delta Force has adopted modest quantities of the new, SIG MCX Virtus , also affectionately known as the "Black Mamba," with an 11.5-inch barrel (in 5.56mm) and gas-piston operating system. So we Rangers RRC also bought a few.
+@firearm_mcxvirtussup_name=SIG MCX Virtus Suppressed
+
+# 国产
+
+@firearm_type56pla_name=Type 56 SMG
+@firearm_type56pla_desc=Although it has been fully retired in China, because there are plenty of them in stock overseas, when makeup reconnaissance is needed, you carry an AK that is more inconspicuous than an M4.
+
+@firearm_type56_40rd_name=Type-56 Hi-Magazine
+@firearm_type56_40rd_desc=Captured from terrorists, and this Chinese AK used 40 rounds RPK magazine by some rangers. If you think the firepower is not enough, you can then replace the RPK drum.
+
+@firearm_type56_drum_name=Type 56 Drum
+@firearm_type56_drum_desc=This chinese's AK equip a RPK 75-rounds drum magazine.
+
+@firearm_type811_name=Type 81-1
+@firearm_type811_desc=Over 30 years of service, accurate, reliable and a dependable weapon that veterans can trust. But it's a bit outdated in this day and age and can't yet be fitted with attachments.
+@firearm_type811drum_name=Type 81-1 DRUM
+@firearm_type811drum_desc=When Battle against Vietnam, there were already veterans who did this: using the drums of Type 81 machine guns on their rifles.
+@firearm_type811qlg91a_name=Type 81-1/QLG91A
+@firearm_type811qlg91a_desc=The QLG91 is a series of 35mm grenade launchers copied from the M203, while the "A" type is for the Type-81 family.
+@firearm_type81lmg_name=Type 81 Squad Machine Gun
+@firearm_type81lmg_desc=Type 81 family in the machine gun type, the barrel is long and thick, and has a bipod to let you rack the gun to shoot more accurately.
+@firearm_type81dmr_name=Type 81 Marksman
+@firearm_type81dmr_desc=The standard Type 81, which has been selected to fire selected rounds, is specifically assigned to the marksmans in the squad, and is sometimes modified to add a Type 85 sniper scope.
+
+@firearm_csls7k_name=CS/LS7K
+@firearm_csls7k_desc=China's newest compact submachine gun.
+@firearm_csls7kSup_name=CS/LS7K Suppressed
+
+@firearm_qcq05_name=QCQ-05
+@firearm_qcq05_desc=When the QCW-05 is removed from the muffler, it becomes the QCQ-05.
+@firearm_qcw05_name=QCW-05
+@firearm_qcw05_desc=The QCW-05 is a Chinese bullpup submachine gun. Standard military version with integrated suppressor.
+
+@firearm_nr08_name=NR08
+@firearm_nr08_desc=Chinese imitation of the MP5 submachine gun, exported under the name NR08, but there are also a very small number of them used by special departments or individual SWAT teams in China.
+
+@firearm_qbz95_name=QBZ-95
+@firearm_qbz95_desc=China's first type of system rifle without stock, very light and short but long barrel, with relatively good shooting accuracy.  Some soldiers will add a Picatinny rail for mounting the foreign scope.
+@firearm_qbz95sup_name=QBZ-95 Suppressed
+
+@firearm_qbz95_qlg91_name=QBZ-95 / QLG91B
+@firearm_qbz95_qlg91_desc=China's first type of system rifle without stock, very light and short but long barrel, with relatively good shooting accuracy. Some soldiers will add a Picatinny rail for mounting the foreign scope.
+
+@firearm_qbz191_carabine_name=QBZ-191 Carbine
+@firearm_qbz191_carabine_desc=A longer barrel carbine version of Chinese "QBZ-191", but It is tentatively named "191", this gun is not official model name yet. (This gun family was an trade corporations sent to the Rangers for actual combat test!)
+
+@firearm_qbz191_carabine_sup_name=QBZ-191 Suppressed
+@firearm_qbz191_carabine_sup_desc=A QBZ-191 carbine equip a sound suppressed.
+
+@firearm_qbz191qlg_name=QBZ-191 / UGL
+@firearm_qbz191qlg_desc=The QLG underbarrel grenade launcher equip on the QBZ191 carbine.
+@firearm_qbz191qlg_sup_name=QBZ-191 / UGL Suppressed
+
+@firearm_qbz192_sbr_name=QBZ-192 Short Carbine
+@firearm_qbz192_sbr_desc=A short barrel rifle version of Chinese "QBZ-191", but It is tentatively named "192", this gun is not official model name yet. (This gun family was an trade corporations sent to the Rangers for actual combat test!)
+
+@firearm_qbz192_sbr_sup_name=QBZ-192 Suppressed
+@firearm_qbz192_sbr_sup_desc=A QBZ-192 short carbine equip a sound suppressed.
+
+@firearm_qbz192qlg_name=QBZ-192 / UGL
+@firearm_qbz192qlg_desc=The QLG underbarrel grenade launcher equip on the QBZ192 Short Assault Rifle.
+@firearm_qbz192qlg_sup_name=QBZ-192 / UGL Suppressed
+
+@firearm_qbu191_dmr_name=QBU-191 DMR
+@firearm_qbu191_dmr_desc=QBU-191 DMAR was mixture of DMR and HBAR, which becomes DMR used high magnification scope. It is tentatively named "191", but there is no official model name yet. (This gun family was an trade corporations sent to the Rangers for actual combat test!)
+
+@firearm_qbu191_lmg_name=QBU-191 LMG
+@firearm_qbu191_lmg_desc=QBU-191 DMAR was mixture of DMR and HBAR, which becomes LMG used drum. It is tentatively named "191", but there is no official model name yet. (This gun family was an trade corporations sent to the Rangers for actual combat test!)
+
+@firearm_qbu191_dmr_sup_name=QBU-191 DMR Suppressed
+@firearm_qbu191_dmr_sup_desc=A QBU-191 DMAR equip a sound suppressed.
+
+@firearm_qbu191_lmg_sup_name=QBU-191 LMG Suppressed
+@firearm_qbu191_lmg_sup_desc=A QBU-191 DMAR equip a sound suppressed.
+
+@firearm_type54_name=Type 54
+@firearm_type54_desc=Chinese Type 54 semi-automatic pistol, it copy by TT-33.
+@firearm_type59_name=Type 59
+@firearm_type59_desc=Copy from Russian Makarov PM, but PLA not a lot of equipped with this gun. Because the original can only be loaded with 8 rounds is too little, so we welded a magazine body to increase the capacity.
+
+@firearm_type54fullauto_name=Type 54 FullAuto DIY
+@firearm_type54fullauto_desc=Our gunsmiths modified the sear so that it can fire fully automatic, but only fully automatic. And because the rate of fire is so high, if you can't control it, you can only shoot the bird. We also increased its capacity to 25 rounds by welding in an extended magazine, but because it's a single-row magazine, it's a long and cumbersome magazine.
+
+@firearm_qsz9258_name=QSZ-92-5.8
+@firearm_qsz9258_desc=The QSZ-92 is a modern pistol of Chinese origin, was developed first and that the 5.8x21mm model. Although the 5.8mm round is smaller than the 9mm round it has a similar magazine capacity higher than 9mm.
+
+@firearm_qsw06_name=QSW-06
+@firearm_qsw06_desc=The modern Chinese Army in 2006 took into inventory the QSW-06, a suppressed sidearm chambered to fire the 5.8x21mm cartridge type. As a subsonic version of the cartridge is offered, coupled to a suppressor/silencer assembly, the QSW-06 can be appropriately categorized as a truly silenced weapon.
+
+@firearm_qsz92g_name=QSZ-92G
+@firearm_qsz92g_desc=QSZ-92G is improved from QSZ-92 9mm version according to the requirements of Chinese police. Some SWAT will use their own modified high-capacity magazines.
+
+@firearm_iov_type79_name=Type 79 SMG
+@firearm_iov_type79_desc=Type 79 submachine gun is a lightweight weapon for jungle warfare. It is a high rate of fire weapon. And it's easy to conceal when the stock is folded.
+
+@firearm_iov_type79tac_name=Type 79 Tactical
+@firearm_iov_type79tac_desc=This is upgrade for chinese type 79 submachine gun.
+
+@firearm_type82smg_name=Type 82
+@firearm_type82smg_desc=The imitation wz.63, captured from Vietnam, was produced in such small numbers that most soldiers had never seen it until we pulled it out of the bottom of the warehouse.
+@firearm_type82smgsec_desc=Although this compact submachine gun, a copy of the Polish WZ63, was not well suited for medium- and long-range shooting, using it as a self-defense weapon gave a greater sense of security than a pistol for a recoilless gunner.
+
+@firearm_iov_type85sd_name=Type 85 Silencer SMG
+@firearm_iov_type85sd_desc=Although a little old, accuracy is not good, but light and flexible enough, reliable failure less, especially "quiet", is a reliable weapon against the sentry. What you currently have is a late production model with additional rails for mounting scopes according to the scouting units's requirements.
+
+@firearm_iov_type85sdnone_name=Type 85 Remove Silencer
+@firearm_iov_type85sdnone_desc=Sometimes the scouts will simply and crudely remove the silencer when a close-range weapon is needed. Although its shooting accuracy will be reduced as a result, but Rapidly spraying bullets into the enemy's face at close range is enough.
+
+@firearm_iov_type85smg_name=Type 85 Light SMG
+@firearm_iov_type85smg_desc=The standard type of Type-85 light submachine gun, but in fact it is in lower demand than the Type-85 silencer submachine gun. And it uses standard Type-51 pistol ammunitions and may not use Type-64 subsnoic ammunitions.
+
+@firearm_iov_type85SVD_name=Type 85 Sniper Rifle
+@firearm_iov_type85SVD_desc=The Chinese copy of the SVD sniper rifle, the export version called NDM-86, has a Picatinny rail modified on the gun to allow for the installation of a Western scope.
+
+@firearm_iov_qbu88_name=QBU-88
+@firearm_iov_qbu88_desc=Chinese small caliber sniper rifles, initially used to replace Type 85 (SVD clone), one per platoon, later became squad DMR, one per squad.
+
+@firearm_iov_qjy88_name=QJY-88
+@firearm_iov_qjy88_desc=Chinese small caliber GPMG, yes, you read that right? It is indeed defined as a GPMG in China rather than a LMG, and is a company and platoon weapon rather than a squad weapon.
+
+@firearm_type80pkm_name=Type 80 GPMG
+@firearm_type80pkm_desc=Chinese copycat PKMs. Equipped in small quantities at PLA, but also exported in large quantities.
+
+@firearm_type67early_name=Type 67 Early
+@firearm_type67early_desc=An early model of the Chinese Type 67 silenced pistol, firing a dedicated heavy-tipped subsonic round, is quite rare on the market.
+
+@firearm_obj952_name=Object 95-2
+@firearm_obj952_desc=China tried to introduce AN94 in the 1990's to test on QBZ95A (later renamed as QBZ03) under the name of <Object 95 Improve>, and although it was not eventually installed, we were able to obtain a few samples for field testing.
+
+@firearm_cqa_carabine_name=CQ-A Carbine
+@firearm_cqa_carabine_desc=The Chinese export of the cloning M4 is just right for some operations that require covert reconnaissance. But we just find the regular M855 round.
+@firearm_cqaSup_carabine_name=CQ-A Carbine Suppressed
+
+@firearm_iov_qbs09_name=QBS-09
+@firearm_iov_qbs09_desc=The QBS09 is a modern semi-automatic tactical shotgun of Chinese origin. The special tungsten buckshot fired has a longer range and penetrating effects.
+
+# 俄罗斯
+
+@firearm_akms_folded_name=AKMS
+@firearm_akms_folded_desc=Captured from terrorists, and this AK used 40-rounds RPK magazine by some rangers.
+
+@firearm_aks74u_45rd_name=AKS-74U
+@firearm_aks74u_45rd_desc=Captured from terrorists, and this AK used 45 rounds RPK74 magazine by some rangers.
+
+@firearm_zenitco_aks74u_name=AKS-74U (Upgrade)
+@firearm_zenitco_aks74u_desc=Captured from terrorists, and their captured from Russian troops. This AKS-74U was modify by Zenitco Upgrade kits.
+
+@firearm_zenitco_ak105_name=AK-105
+@firearm_zenitco_ak105_desc=Captured from terrorists, and their captured from Russian troops. This AK-105 was modify by Zenitco Upgrade kits.
+
+@firearm_rpk74_name=RPK-74
+@firearm_rpk74_desc=It is not only a squad light machine gun, also a DMR used by some Russian troops.
+
+@firearm_sr3m_desc=Captured from terrorists, and their from Russian troops.
+@firearm_sr3msup_name=SR-3M Suppressed
+
+@firearm_bizon2_name=PP-19 BIZON2
+@firearm_bizon2_desc=This submachine gun uses a unique high-capacity magazine that can carry up to 64 rounds, and although the stopping effect of the 9mm Makarov round is slightly lower than that of the 9mm Luger round, it wins because there are more rounds.
+@firearm_bizon2pbs1_name=PP-19 BIZON2 / PBS-1
+
+@firearm_ppsh41_name=PPSh-41
+@firearm_ppsh41_desc=A former Soviet submachine gun that was gotten on the black market. The gunsmith also welded a section of rail above the barrel shroud for mounting the scope.
+
+@firearm_pp2000_name=PP-2000
+@firearm_pp2000_desc=The company's Russian veterans bought the micro submachine guns from Russia specifically.
+
+@firearm_pp2000sup_name=PP-2000 Suppressed
+@firearm_pp2000sup_desc=A PP-2000 equip sound suppressed.
+
+@firearm_makarovpm_name=Makarov PM
+@firearm_makarovpm_desc=The Soviet veterans in the company were particularly used to using this pistol, quick to react, accurate to hit, and although the magazine capacity was low, they welded and lengthened the magazines themselves.
+
+@firearm_stechkin_aps_name=Stechkin APS
+@firearm_stechkin_aps_desc=The Stechkin APS has an automatic fire mode, which is selected using the safety lever. In burst or automatic fire, the pistol should be fitted with the wooden or metal shoulder stock; otherwise, the weapon becomes difficult to control.
+@firearm_stechkin_apsstock_name=Stechkin APS with Stock
+@firearm_stechkin_aps_PBOps_desc=Imported in small quantities in the 80's and used by special units.
+
+@firearm_akms_name=AKMS
+@firearm_akms_desc=The old guns that our Russian veterans in the company were particularly fond of, they shot as accurately as a single shot at long range using short burst.
+
+@firearm_akmspbs1_name=AKMS Suppressed
+@firearm_akmspbs1_desc=Russian veterans would often equip AKMs with PBS-1 silencers with subsnoic weight bullets to use against sentries.
+
+@firearm_akmsgp30_name=AKMS/GP30
+@firearm_akmsgp30_desc=Although the Russian army is equipped with GP25, in the commercial market we can only buy GP30.
+
+@firearm_akmsgp30pbs1_name=AKMS/GP30 Suppressed
+
+# HK公司
+
+@firearm_hksmg2_name=HK SMG II
+@firearm_hksmg2_desc=In the 1980s, H&K built for US NAVY SEALs. SEALs and DELTA FORCE  tested it. It was actually manufactured and 60 were shipped for operational uses that are still classified.
+@firearm_hksmg2Sup_name=HK SMG II Suppressed
+@firearm_hksmg2Sup_desc=A pressure vessel under the barrel was connected to the barrel via a set of holes just in front of the chamber, and when opened it would reduce chamber pressure and thus velocity. It could reportedly reduce muzzle velocity from 350 m/s to 305 m/s, thus bringing it below the speed of sound. But not to fire high pressure bullets.
+
+@firearm_hkcaws_name=HK CAWS
+@firearm_hkcaws_desc=This rare weapon, which we stole from HK's Grey Room, can be fired at 300rpm for full-auto, or 240rpm for 3-rounds burst, and its tungsten shrapnel can penetrate enemy body armor.
+
+@firearm_ump45_name=UMP45
+@firearm_ump45_desc=HK not very successful submachine gun, the original plan to replace the MP5, but really not outstanding, and many shortcomings. Only a small number of users have bought trials.
+@firearm_ump45sup_name=UMP45 Suppressed
+
+@firearm_msg90a1_name=HK MSG90A1
+@firearm_msg90a1_desc=A militarized answer to the PSG1, the 7.62 x 51 mm MSG90A1 has many of the same features found on the PSG1A1, but weighs only 6.4 kilograms and is available at a lower cost. So someone PMC will buy it.
+
+@firearm_vp70_name=HK VP70
+@firearm_vp70_desc=The HK VP70 is a German-made semi-automatic/three-round burst capable pistol. When mounted shoulder stock, allows selective fire, enabling the pistol to fire in three-round bursts as well as the standard semi-automatic. When not in use, the shoulder stock doubles as a holster for the weapon.
+
+@firearm_mp510_name=MP5/10 A3
+@firearm_mp510_desc=Special versions were developed and manufactured in limited number, chambered for the more powerful 10mm Auto (10x25mm) ammunition. Due to the addition hold open so the magazine change also fast, but the accuracy is slightly less than 9mm MP5. Equipped with FBI HRT and  Task Force Rainbow.
+@firearm_mp510sup_name=MP5/10 A3 Suppressed
+@firearm_mp510sup_desc=Entry team of Task Force Rainbow commandos prefer to use MP5/10 with silencers installed.
+
+@firearm_hk53_name=HK53 SMG
+@firearm_hk53_desc=The HK53 is essentially a cut-down HK33. It features an 8.3 inch barrel, and a MP5-style forearm. The SAS used the it.
+
+@firearm_mc51_name=MC51 SMG
+@firearm_mc51_desc=The MC-51 was essentially a very short G3 rifle, cut down to the dimensions of a submachine gun. It was chambered for 7.62x51mm NATO ammunition, which huge power.
+
+#欧洲其他
+
+@firearm_g17_IPs_desc=Special approval for a small number of imported Austrian guns, although we only issued FMJ bullets produced in our own country. Currently equipping special departments, and a small number of police departments.
+
+@firearm_vz61_name=vz.61 Scorpion
+@firearm_vz61_desc=The Vz61 "Skorpion" was a machine pistol developed by Czech engineer in 1959. This is a small, easy to hide fire arms.
+
+@firearm_vz61sup_name=vz.61 Scorpion Suppressed
+@firearm_vz61sup_desc=The "Scorpion" equip sound suppressed.
+
+@firearm_SterlingL2A3_nameI=Sterling L2A3 (Mk.4)
+@firearm_SterlingL2A3_descI=God knows where the terrorists got these old grandpa guns, now they're in our collection. The gunsmith also welded a section of rail above the barrel shroud for mounting the scope.
+
+@firearm_SterlingL34A1_nameI=Sterling L34A1 (Mk.5)
+@firearm_SterlingL34A1_descI=God knows where the terrorists got these old grandpa guns, now they're in our collection.
+
+@firearm_SterlingL34A1GL_nameI=Sterling L34A1 "the Bitch"
+@firearm_SterlingL34A1GL_descI=When we got a working XM148, we were able to mimic the SASR in Vietnam and hook it up under the muffler on the Sterling.
+
+@firearm_auga1_name=AUG-A1 Rifle
+@firearm_auga1_desc=The earliest "modular" and "plastic" rifles, you can easily change the barrel into another model.
+@firearm_auga1_PBOps_name=AUG-A1 Clone
+@firearm_auga1_PBOps_desc=Someone factory had successfully copied the AUG-A1, but there was no order. Now less of prototype guns are given to special units for covert operations that require disguised identities.
+
+@firearm_auga1smg_name=AUG-A1 SMG
+@firearm_auga1smg_desc=The short barrel type of AUG is more flexible in close range combat, but has a higher rate of fire because the bore pressure becomes higher.
+
+@firearm_auga1_m203_name=AUG-A1/M203
+@firearm_auga1_m203_desc=Because the M203 needs to be fixed to the barrel, it is not possible to replace the short barrel.
+
+@firearm_auga1hbar_name=AUG-A1 HBAR
+@firearm_auga1hbar_desc=This HBAR can be used as both a light machine gun and a sniper rifle, and its accuracy and flexibility are between that of a normal rifle and a light machine gun or sniper rifle. Provides suppressing fire at close range and when mounted the gun up for precision fire at medium to long range.
+
+@firearm_ultimax100_name=Ultimax 100 MK3
+@firearm_ultimax100_desc=The Constant Recoil makes it a very stable burst of fire with a small dispersion area. The downside is the slightly lower rate of fire. This rare Singapore item was purchased in small quantities by Delta.
+
+@firearm_wa2000_name=WA2000
+@firearm_wa2000_desc=One of the few produced in the world, don't ask me how I got my hands on it, but the Task Force Rainbow snipers love it.
+
+@firearm_asval_name=AS VAL
+@firearm_asval_desc=The assault version of the VSS sniper rifle has twice the magazine capacity, but in reality they are both similarly useful.
+
+@firearm_g11k2iov_name=HK G11K2
+@firearm_g11k2iov_desc=When firing in full-auto,  the cyclic rate of around 600 rounds per minute. When firing in three-round bursts, around 2,000 rounds per minute. 
+
+# 其他手枪
+
+@firearm_1911color_pistol_name=Color 1911
+@firearm_1911color_pistol_desc=This idea from TV "SEAL TEAM". Painted in color to make the enemy think it's a toy gun.
+
+@firearm_g19mhs_name=G19 MHS
+@firearm_g19mhs_desc=Glock 19 MHS prototype for Modular Handgun System. Someone was lucky enough to buy it on the second-hand market and it came with the +floorplate magazine.
+@firearm_g19mhssup_name=G19 MHS Suppressed
+@firearm_g19mhssup_desc=This Glock 19 MHS equip B&T sound suppressed.
+
+@firearm_g17mos33mag_name=G17 with Long Magazine
+@firearm_g17mos33mag_desc=The MOS version indicates that it can be fitted with a small red dot sight. The which uses a 33-round magazine, has longer lasting firepower, but does make the pistol a bit bulkier.
+
+@firearm_g17mos50drum_name=G17 FullAuto DIY
+@firearm_g17mos50drum_desc=This pistol is fitted with a Semi/Full Automatic Switch that turns it into an machine pistol. To enhance the firepower, we also use the drums of the gangsters' favorite drum magazines.
+
+@firearm_1911mag10_pistol_name=1911 (High-Capacity)
+@firearm_1911mag10_pistol_desc=This 1911 pistol equip longer magazine, can capacity 10 rounds .45 ACP.
+
+@firearm_1911sti40_pistol_name=STI 1911 Custom for CAG
+@firearm_1911sti40_pistol_desc=A custom .40 caliber STI-2011 for Delta Force. Almost use STI 170mm 22-round magazine.
+
+@firearm_deserteagle_name=Desert Eagle .50
+@firearm_deserteagle_desc=One big hole in one shot combat pistol, if you have the figure of Arnold Schwarzenegger, or the awareness of the Polish GROM, use it.
+
+@firearm_deserteagle_fullauto_name=Desert Eagle FullAuto DIY
+@firearm_deserteagle_fullauto_desc=The product of a street fight, the .50 AE Desert Eagle was modified to fire on full auto only, and a front grip was added to control the muzzle jump.
+
+
+# 其他机枪
+
+@firearm_m60e3_iovname=M60E3
+@firearm_m60e3_iovdesc=The M60E3 machine gun is the follow up of the legendary M60 machine gun. The M60 was somewhat heavy and had several design faults, and in the 1980s the U.S. forces requested a lighter version for use by rapid intervention troops and light infantry. The M60E3 was developed to fill this requirement, which it has done with considerable success.
+
+@firearm_m60e3sup_iovname=M60E3  Suppressed
+@firearm_m60e3sup_iovdesc=A M60E3 equip silencer for suppressed the muzzle flash, but not used subsonic bullet.
+
+@firearm_m60e3com_iovname=M60E3 Commando
+@firearm_m60e3com_iovdesc=Replace 22-inch barrel to 18-inch barrel.
+
+@firearm_bar1918a2_name=M1918A2 BAR
+@firearm_bar1918a2_desc=M1918A2 Browning Automatic Rifle is a old gun of WWII. The M1918A2 replaced these with two full-auto settings, fast (~600rpm) and slow (~350rpm).  This gun was seized from the Pirates of Malacca. It used a DIY high-capacity magazine.
+
+#其他枪
+
+@firearm_rem870mk1_name=Remington 870 Mark 1
+@firearm_rem870mk1_desc=Military surplus material from the second-hand market, authentic U.S. Army equipped shotgun Rem870 Mark 1.
+
+@firearm_aa12iov_name=AA-12
+@firearm_aa12iov_desc=The AA-12 Shotgun firing from a open bolt full-auto configuration.
+
+@firearm_Vector45SMG_name=Vector SMG
+@firearm_Vector45SMG_desc=The KRISS Vector SMG is a compact, weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for the most controllable select fire operation.
+@firearm_Vector45SMG_Sup_name=Vector SMG Suppressed
+
+@firearm_CBJMS_name=CBJ-MS PDW
+@firearm_CBJMS_desc=The CBJ-MS is a possible Personal Defense Weapon. The core is its special ammunition, nominally marked as 6,5x25, which fires a variety of high-velocity projectiles.
+@firearm_CBJMS_Sup_name=CBJ-MS Suppressed
+
+@firearm_kacpdw_name=KAC PDW
+@firearm_kacpdw_desc=The close combat rifle developed by KAC with specialized short-barreled rifle cartridges doesn't sell very well, but that's not because of bad performance.
+@firearm_kacpdwSup_name=KAC PDW Suppressed
+
+@firearm_galil_ace23_name=Galil ACE 23
+@firearm_galil_ace23_desc=The IWI ACE line represents the next generation of the renowned GALIL assault rifle. This new ACE 23 assault rifles work with standard 5.56X45mm.
+
+@firearm_microuzi_name=Micro UZI
+@firearm_microuzi_desc=Its high rate of fire also makes it an excellent room clearer, although this also makes it uncontrollable at longer ranges.
+
+@firearm_cz75auto_name=CZ75 Automatic
+@firearm_cz75auto_desc=A machinegun pistol from CZ 75 family.
+
+@firearm_iov_M82A1M_name=Barret M82A1M
+@firearm_iov_M82A1M_desc=If you want to blow some watermelons, try this. But it's too heavy to move around.
+
+@firearm_honeybadger_name=AAC Honey Badger
+@firearm_honeybadger_desc=The AAC Honey Badger was designed for a specific military contract that intended to replace the MP5-SD. This gun is designed to be small and handy and work in a variety of different scenarios.
+
+@firearm_btMP9_name=B&T MP9
+@firearm_btMP9_desc=A compact submachine gun that is easy to conceal, easy to carry, and can be used as a personal defense weapon
+@firearm_btMP9sup_name=B&T MP9 Suppressed
+
+@firearm_max41a_name=MAX-41A
+@firearm_max41a_desc=A combination submachinegun in 9mm and short barreled 12 gauge shotgun designed to resemble the M-41A Pulse Rifle from the movie Aliens. Submachinegun component is a SWD M-11/9, magazine used is a Suomi "Coffin" magazine that holds 50 rounds of 9mm. Shotgun component is a Remington 870 short barreled shotgun, and fire FRAG-12 exploding shoshell.
+
+@firearm_supershorty_name=Serbu Super-Shorty
+@firearm_supershorty_desc=The Serbu Super-Shorty is based on either the Mossberg 500 or the Remington 870 12-gauge shotgun. Super Shorties come in either 2 + 1 configurations. If you like the idea of concealed carry with a 12-gauge, or like a lot of "bang" in a small package, or just like a lot of muzzle flash, then this is the gun for you.
+
+#其他爆炸武器
+
+@firearm_iov_type69rl_name=Type 69-1
+@firearm_iov_type69rl_desc=The Type 69 RPG is a Chinese copy of the famous RPG-7 developed by the Soviet Union. First introduced in the early 1970s, the Type 69 RPG is still the most common individual anti-tank weapon in service with the PLA. New types of grenade rounds have been developed in the 1980s/90s to meet the requirements of modern battlefield.
+
+@firearm_iov_PF89B_name=PF89B
+@firearm_iov_PF89B_desc=The PF-89B is a single use weapon, which is fired from the shoulder, it fires an 80 mm rocket with a tandem HEAT warhead.
+@firearm_caliber_80mmHEAT_name=80mm HEAT
+
+@firearm_iov_pf97a_name=PF-97A
+@firearm_iov_pf97a_desc=The PF-97 is a Chinese copy the Soviet RPO-A Thermobaric rocket launcher.  PF-97A is dobule tube improved type.
+
+@firearm_iov_82recoilless_name=BieStaf 82mm Recoilless
+@firearm_iov_82recoilless_desc=China's newest 82mm recoilless rifle, still under wraps.
+
+@firearm_iov_m3e1maaws_name=M3E1 MAAWS
+@firearm_iov_m3e1maaws_desc=Multi-Role Anti-Armor/Anti-Personnel Weapon System (MAAWS) base on Carl Gustaf Recoilless Rifle.
+
+@firearm_iov_rgm40_name=RGM-40
+@firearm_iov_rgm40_desc=The RGM-40 Kastet grenade launcher is a stand alone version of the Russian GP-30 grenade launcher with a telescoping stock, AK-type pistol-grip and flip-up tangent sights.
+
+<!-- IOV AMMOs -->
+
+@firearm_caliber_762x39QLG35_name=5.8x42mm/QLG 35mm HE
+
+@firearm_caliber_iov58x42_name=5.8x42mm
+@firearm_caliber_iov58x42QLG_name=5.8x42mm/QLG 35mm HE
+@firearm_caliber_iov5.8x21_name=5.8x21mm
+
+@ammo_58DBP95_name=5.8x42mm DBP95 FMJ
+@ammo_58DBP95_desc=The ammunition that accompanies the Type 95 automatic rifle does not perform well on short barrels.
+
+@ammo_58DBP191_name=5.8x42mm DBP191 FMJ
+@ammo_58DBP191_desc=Standard ammo for QBZ-xxx 5.8mm gun family.
+
+@ammo_58DVC12_name=5.8x42mm DCV12 AP
+@ammo_58DVC12_desc=Using tungsten alloy core, it can penetrate heavy body armor, but the stopping power is a little worse. However, its bore pressure is relatively large and will damage the silencer.
+
+@ammo_58DBU141_name=5.8x42mm DBU141 Sniper
+@ammo_58DBU141_desc=Sniper rifle ammo for 5.8mm gun family.
+
+@ammo_58Subsonic_name=5.8x42mm Subsonic
+@ammo_58Subsonic_desc=Subsonic bullet for sound suppressed.
+
+@ammo_5821FMJDAP92_name=DAP92 AP
+@ammo_5821FMJDAP92_desc=Hight speed Hard steel core for high penetration.
+
+@ammo_5821FMJDCV06_name=DCV06 Subsonic
+@ammo_5821FMJDCV06_desc=heavy subsonic bullet for high stoping power but low penetration.
+
+@ammo_iov58DVP88_name=5.8x42mm DVP88 MG bullet
+@ammo_iov58DVP88_desc=5.8mm caliber machine gun ammunition, a heavy bullet with enhanced penetration effect, suitable for QJY88 GPMG and QBU88 sniper rifles, but barely used in Type 95 rifles ballistic effect will
+
+@ammo_iov762R57TYPE53_name=7.62mm Type53
+@ammo_iov762R57TYPE53_desc=Chinese production of 7.62x54R rifle ammunition, mainly used for general purpose machine guns and sniper rifles
+
+@firearm_caliber_iov184mm_name=18.4mm
+@ammo_184DBD09_name=DBD-09 Buckshot
+@ammo_184DBD09_desc=It has 14 tungsten pellets per round DBD-09 buckshot. So it shoot farther than traditional lead shotshells.
+
+@ammo_762FMJMk319_name=Mk319 130gr SOST Ball
+@ammo_762FMJMk319_desc=This Open Tip Rear Penetrator Round works great out of short CQB barrels. 
+
+@ammo_556Subsonic_name=112gr Subsonic Ball
+@ammo_556Subsonic_desc=TCS extra heavy bullets designed to tumble in soft targets massive entry wound.
+
+@ammo_556FMJM193_name=5.56mm M193
+@ammo_556FMJM193_desc=A 55 grain, boat-tail, lead core FMJ bullet.
+
+@firearm_caliber_iov65CM_name=6.5mm Creedmoor Hybrid
+@ammo_65Creedmoor_name=6.5mm Creedmoor FMJ
+@ammo_65Creedmoor_desc=The 6.5 Creedmoor uses a smaller, lighter round than the .308: that means that with the same amount of powder behind it, the bullet flies a lot faster, and thus a lot flatter.
+
+@ammo_545FMJ7N6_name=5.45mm 7-N-6 FMJ
+@ammo_545FMJ7N6_desc=The 53 grain 7N6 steel core Full Metal Jacket Steel Case ammunition from Russian AK-74 family.
+
+@ammo_919AP_name=9mm 7-N-31 AP
+@ammo_919AP_desc=The pistol caliber armor-piercing bullet is designed to defeat the enemy, those using personal protective equipment.
+
+@firearm_caliber_iov10auto_name=10mm AUTO
+@ammo_10AUTOFMJ_name=10mm AUTO FMJ
+@ammo_10AUTOFMJ_desc=180 grain FMJ of 10mm AUTO (10x25mm) ammunition.
+@ammo_10AUTOJHP_name=10mm AUTO JHP
+@ammo_10AUTOJHP_desc=155 grain XTP/JHP of 10mm AUTO (10x25mm) ammunition.
+
+@ammo_918PMM_Iname=57-N-181SM (7N16)
+@ammo_918PMM_Idesc=This "Improved" or "high impulse" PMM loading, with a more powerful propellant charge and lighter bullet, but this was limited issue for safety reasons.
+
+@firearm_caliber_iov762x25_name=7.62x25mm TT
+@ammo_762x25FMJ_name=Type 51 Ball
+@ammo_762x25FMJ_desc=Togarev pistol cartridges, which are still used in some submachine guns. 
+The Type-51 pistol ammunition produced in China uses a steel core, so its penetrating power is only a little weaker than armor-piercing ammunition.
+
+@firearm_caliber_762TYPE64_name=7.62mm Type-64
+@ammo_762x25TYPE64SB_name=Type 64 Silencer ammo
+@ammo_762x25TYPE64SB_desc=Subsonic heavy warheads, although not far away, but in close range killing power is very considerable. Although the cartridge case is the same as the Tokarev pistol cartridge, but the bullet  full length is actually longer and cannot be used universally in Tokarev calibe weapons.
+
+@firearm_caliber_762TYPE67_name=7.62mm Type-67
+@ammo_762X17Subsonic_name=Type 67 Silencer Ammo
+@ammo_762X17Subsonic_desc=This bullet is specifically designed for the Type 67 silencer pistol and would be problematic if used in other 7.62x17mm pistols.
+
+@ammo_45FMJM1911color_name=Color .45 ACP FMJ
+@ammo_45FMJM1911color_desc=Painted in color to make the enemy think it's a toy bullet.
+
+@firearm_caliber_iov32acp_name=.32 ACP
+@ammo_765x17FMJ_name=.32 ACP FMJ
+@ammo_765x17FMJ_desc=.32 ACP (7.65x17mm) metal case 71 grain ball.
+@ammo_765x17JHP_name=.32 ACP JHP
+@ammo_765x17JHP_desc=.32 ACP (7.65x17mm) 71gr JHP.
+
+@firearm_caliber_iov762x63_name=.30-06 Springfield
+@ammo_762x63FMJ_name=.30-06 FMJ
+@ammo_762x63FMJ_desc=Old ammunition from the WW2, military surplus materials that have not passed the shelf life.
+
+@ammo_300BLK_name=.300 BLK Subsonic
+@ammo_300BLK_desc=The 220gr .300 Blackout is a rifle cartridge that’s more powerful than 5.56/.223 (AR-15 ammo) and works reliably with subsonic.
+@ammo_300BLKSP_name=110gr Supersonic
+@ammo_300BLKSP_desc=Supersonic load provides balanced damage at the cost of a louder sound signature.
+
+@ammo_57ss190_name=SS190 31gr FMJ
+@ammo_57ss190_desc=Standard ammunition for FN P90 with steel penetrator and aluminum core.
+@ammo_57ss196sr_name=SS196SR 40gr V-Max
+@ammo_57ss196sr_desc=The polycarbonate tip in the V-Max bullet enhances expansion of the bullet. Although the penetrating effect is weakened, the stopping power is increased.
+@ammo_57sb193_name=SB193 55 gr Subsonic
+@ammo_57sb193_desc=A 4 gram lead core subsonic bullet with a reinforced copper jacket, in a brass case with a reduced charge, but ensure the weapons fire cycling when fired from the FN Five-seveN pistol and the FN P90 submachine gun.
+
+@firearm_caliber_iov6x35KAC_name=KAC 6x35mm
+@ammo_6x35FMJ_KACPDW_name=6x35mm TWSG
+@ammo_6x35FMJ_KACPDW_desc=The 6x35mm TSWG was also designed explicitly for 10″ or shorter barrel lengths. Better stopping power at close range, but poor effect at long range.
+
+@firearm_caliber_473x33_name=4.73x33mm Caseless
+@ammo_473DM11_name=4.73x33mm DM11
+@ammo_473DM11_desc=4.73mm caseless, itis light and small, with good killing power at close range, but not enough power at long range.
+
+@ammo_65x25CBJST_name=6.5mm CBJ Spoon Tip
+@ammo_65x25CBJST_desc=Nominally marked as 6,5x25, the primary loading is a saboted sub-caliber tungsten projectile, with caliber of 4mm  and weight of 2 gram. This provides significant armor penetration.
+
+@ammo_65x25CBJSB_name=6.5mm CBJ Subsonic
+@ammo_65x25CBJSB_desc=The subsonic heavy warhead still has a certain penetration ability.
+
+@firearm_caliber_50ae_name=.50 AE
+@ammo_50AE_name=.50 AE JHP
+@ammo_50AE_desc=One shot a big hole, but the recoil is also very considerable.
+
+@firearm_caliber_300WM_name=.300 WIN MAG
+@ammo_300WM_name=.300 WIN MAG FMJ
+@ammo_300WM_desc=Powerful, long-range sniper rounds that can deal with heavy body armor.
+
+@ammo_50MK1022_name=.50 MK1022 Sniper Ammo
+@ammo_50MK1022_desc=This bullet is used to hit enemy.
+
+@ammo_50MK211_name=.50 MK211 AMR Ammo
+@ammo_50MK211_desc=This bullet is used to hit the watermelon. If you use it to hit people, you will violate the STEAM international convention because it is too violent. You may cause this game to be banned.
+
+@firearm_caliber_12gaugeB_name=12 gauge Belted
+@ammo_12GABUCK_CAWS_name=18.5×76mmR
+@ammo_12GABUCK_CAWS_desc=The 18.5x76mmR cartridge were specialized shotgun rounds. The tungsten buckshot could penetrate through mild steel plates at 150 meters.
+
+@firearm_caliber_65x51H_name=SIG 6.8x51mm Hybrid
+@ammo_68FMJSIG_name=SIG SAUER 6.8x51mm Hybrid
+@ammo_68FMJSIG_desc=It called 277 SIG FURY, this new cartridge will serve as the original chambering for the commercial MCX-Spear.
+
+@firearm_caliber_84mmHEDP_name=84mm HEDP
+@firearm_caliber_40mmHEAT_name=40mm HEAT
+@firearm_caliber_93mmTHE_name=93mm Thermobaric
+@firearm_caliber_82mmHEDP_name=82mm HEDP
+
+<!-- IOV VESTs -->
+
+@armor_iov_avs_pc_3333_name=AVS / Level III Plates
+@armor_iov_avs_pc_3333_desc=Adaptive Vest System (AVS) of Crye Precision, and four NIJ III SAPI plates.
+
+@armor_iov_avs_pc_3003_name=AVS / Level III Plates
+@armor_iov_avs_pc_3003_desc=Adaptive Vest System (AVS) of Crye Precision, front and rear III  plates.
+
+@armor_iov_avs_pc_4444_name=AVS / Level IV Plates
+@armor_iov_avs_pc_4444_desc=Adaptive Vest System (AVS) of Crye Precision, and four NIJ IV SAPI plates.
+
+@armor_iov_avs_pc_4330_name=AVS / Level IV+III Plates
+@armor_iov_avs_pc_4330_desc=Adaptive Vest System (AVS) of Crye Precision, with one front IV plate and two III side plates.
+
+@armor_iov_avs_pc_4004_name=AVS / Level IV Plates
+@armor_iov_avs_pc_4004_desc=Adaptive Vest System (AVS) of Crye Precision, front and rear IV SAPI plates.
+
+@armor_iov_iotv_name=Improved Outer Tactical Vest
+@armor_iov_iotv_desc=The Improved Outer Tactical Vest (IOTV) is an enhanced version of, and a replacement for, the older Outer Tactical Vest (OTV) variant of the Interceptor Body Armor.
+
+@armor_iov_ultralight_pc_name=Slick Ultralight PC
+@armor_iov_ultralight_pc_desc=Designed for wear underneath garments or Load Carriage Platforms, The Slick is very light, has soft material and can be folded up and stashed in your cargo pocket when not needed. Cut to fit SAPI/SPEAR cut ballistic plates.
+
+@armor_iov_Protector_TF95_name=Protector TF-95
+@armor_iov_Protector_TF95_desc=The semi-rigid bulletproof vest with small steel pieces embedded in it was equipped in large quantities by the Chinese army. Chinese GJB-standard level 4, it is approximately equivalent to between US NIJ III to IIIA.
+
+@armor_iov_type06_noplates_name=2006 No Plates
+@armor_iov_type06_noplates_desc=In lieu of the TF95 soft body armor, the Chinese GJB-standard level 3, equivalent to the U.S. NIJ IIIA level.
+
+@armor_iov_type06_plates_name=2006 With Plates
+@armor_iov_type06_plates_desc=The bulletproof vest with ceramic plates inserted, the Chinese GJB-standard level 6, which is approximately equivalent to U.S. NIJ III level.
+
+@armor_iov_jpc3lv_name=JPC 3 Level
+@armor_iov_jpc3lv_desc=COMBAT-2000 JPC 2.0 Vest with two NIJ-III SAPI plates.
+
+@armor_iov_jpc4lv_name=JPC 4 Level
+@armor_iov_jpc4lv_desc=COMBAT-2000 JPC 2.0 Vest with four NIJ-IV SAPI plates.
+
+@armor_iov_xpc3lv_name=XPC 3 Level
+@armor_iov_xpc3lv_desc=COMBAT-2000 XPC 3.0 Vest with four NIJ-III SAPI plates.
+
+@armor_iov_xpc4lv_name=XPC 4 Level
+@armor_iov_xpc4lv_desc=COMBAT-2000 XPC 3.0 Vest with four NIJ-IV SAPI plates.
+
+@rrv_iov_vest_name=Rhodesian Recon Vest
+@rrv_iov_vest_desc=The Eagle Industries Rhodesian Recon Vest is a combat proven vest used widely by US Army Special Forces war fighters.
+
+<!-- IOV Helmet -->
+
+@helmet_CIA_basiccaptan_name=Baseball Cap Tan
+@helmet_CIA_basiccapblack_name=Baseball Cap Black
+@helmet_CIA_basiccapog_name=Baseball Cap OG
+@helmet_CIA_basiccapgreen_name=Baseball Cap Green
+@helmet_CIA_basiccapred_name=Baseball Cap Red
+@helmet_CIA_basiccapblue_name=Baseball Cap Blue
+
+@helmet_iov_bonnie_name=Bonnie Cap
+@helmet_iov_bonnie_desc=No protection, but lightweight and allows you to run faster.
+
+@helmet_iov_qgf03_name=QGF-03
+@helmet_iov_qgf03_desc=Chinese production of pagst-shaped spunlace helmets, were heavily equipped. Commonly found in Chinese UN troops stationed in foreign countries.
+
+@helmet_iov_qgf11_name=QGF-11
+@helmet_iov_qgf11_desc=The Chinese replica of the MICH-2000 helmet. More comprehensive protection area.
+
+@helmet_iov_qgf15_name=QGF-15
+@helmet_iov_qgf15_desc=Improved version of QGF11 helmet with enhanced level of protection.
+
+@helmet_iov_qgf19_name=QGF-19
+@helmet_iov_qgf19_desc=The Chinese replica of the FAST High-Cut helmet has exactly the same function.
+
+@helmet_iov_qgf19ear_name=QGF-19 + Ears
+
+@helmet_iov_Ach_name=ACH Replica
+@helmet_iov_Ach_desc=Low-cut ACH helmet, the protective area is larger than the high-cut helmet. But also heavier.
+
+@helmet_iov_mich2001_name=MICH2001 Replica
+@helmet_iov_mich2001_desc=Imitation MICH2001 helmet.
+
+@helmet_iov_mich2002_name=MICH2002 Replica
+@helmet_iov_mich2002_desc=Imitation MICH2002 helmet.
+
+@helmet_iov_airframe_name=Airframe Level IV
+@helmet_iov_airframe_desc=The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. Complete AirFrame helmets weigh less than complete ACH 2002 helmets while providing more coverage area.
+@helmet_iov_airframeears_name=Airframe + Ears
+@helmet_iov_airframechops_name=Airframe + Chops
+
+@helmet_iov_airframepla_name=Airframe Replica
+@helmet_iov_airframepla_desc=The Chinese replica of the Airframe, the front reinforced bulletproof plate can withstand rifle rounds.
+
+@helmet_iov_lzsh_name=LZSh Replica
+@helmet_iov_lzsh_desc=Russian version of the high cut helmet, our company has some veterans who prefer this kind of equipment with a sense of affinity.
+
+@helmet_iov_MASKA_name=MASKA Replica
+@helmet_iov_MASKA_desc=This helmet we got from Russia is very much in your way, but if you can't dodge bullets in the first place, use it to stop them.
+
+@helmet_iov_MASKArg_name=MASKA Rifle Grade
+@helmet_iov_MASKArg_desc=This helmet we got from Russia is very much in your way, but if you can't dodge bullets in the first place, use it to stop them.  And gains a bit in weight to provide level III ballistic protection.
+
+@helmet_iov_BobaFett_name=Boba Fett Helmet
+@helmet_iov_BobaFett_desc=This plastic toy helmet has no protection at all, but when you put it on, the enemy will think you are a fool and automatically ignore you.
+
+@helmet_undercover_hijab_name=Hijab
+@helmet_undercover_hijab_desc=After wrapping up the Hijab, even with a weapon, the enemy may mistake you for their side.
+
+
+<!-- IOV NVG -->
+
+@nvg_iov_leica25_name=LEICA BIG 25
+@nvg_iov_leica25_desc=Leica's monocular binocular night vision goggles are more common in the commercial market.
+
+@nvg_iov_gw89_name=Y/GW89-200
+@nvg_iov_gw89_desc=Early manned night vision goggles produced in China were more commonly equipped.
+
+@nvg_iov_bnvd1431_name=BNVD 1431 MK2
+@nvg_iov_bnvd1431_desc=BNVD 1431 MK2 is a multi-purpose binocular night vision device, which is suitable for the current international general MX10160 18MM specification universal night vision image enhancer, and the overall performance is the same as the current dual-cylinder night vision instrument equipped by elite international law enforcement departments. It's optical system is compatible with the US military standard PVS14 specification mirror set.
+
+@nvg_iov_pnvg18_name=PNVG18
+@nvg_iov_pnvg18_desc=The Chinese copy of the GPNVG-18 night vision device is used in some special units.
+
+<!-- IOV SCOPEs -->
+
+@scope_iov_acogta44_name=Compact ACOG
+@scope_iov_acogta44_desc=The 1.5x mini ACOG, which can be used as a red dot scope, also helps to improve shooting accuracy at medium and long range.
+
+@scope_acogdoc_name=Combat Optic 4x & RedDot
+@scope_acogdoc_desc=A ACOG scope with mini red-dot sight.
+
+@scope_oegunsight_name=Occluded Eye Gunsight
+@scope_oegunsight_desc=The speed of close range aiming is faster, but when the target is far away, the shooting accuracy will decrease.
+
+@scope_aimpoint2000reddot_name=Aimpoint 2000
+@scope_aimpoint2000reddot_desc=Minimalistic sight that simply puts a red dot over the target. Quick and accurate. 
+
+@scope_aimpointmicrot1_name=Aimpoint Micro T1
+@scope_aimpointmicrot1_desc=Micro T-1 is an aiming system that provides the performance of our full-sized sights in a small package.
+
+@scope_sig_romeo3reddot_name=SIG Sauer Romeo 3
+@scope_sig_romeo3reddot_desc=The open reflex ROMEO3 sight is the ideal sighting solution for compact carbines, submachine guns, and full size handguns. ROMEO3 is perfect for those moments when you barely have time to blink.
+
+@scope_Colt4xScope_name=Colt 4x Optic
+@scope_Colt4xScope_desc=Simple magnified optic for shooting at medium ranges, with little weight penalty. 
+
+@scope_l2a2suit_name=L2A2 SUIT Trilux Scope
+@scope_l2a2suit_desc=British Trilux SUIT scope L2A2 is non adjustable battle rifle scope for mount on FAL rifle.
+
+@scope_zf4x24hk_name=ZF 4x24
+@scope_zf4x24hk_desc=4x Sniper Scope for HK rifle and SMG.
+
+@scope_1p29optic_name=Russian 1P29 Optic
+@scope_1p29optic_desc=The 1P29 is a Soviet era optic copied directly from the British Trilux/SUIT optic and adapted to the side rail mount.
+
+@scope_pk06reddot_name=PK-06 Red-Dot sight
+@scope_pk06reddot_desc=Russian picatinny rail mini red-dot sight.
+
+@scope_eotech3xmag_name=EoTech + 3x Mag
+@scope_eotech3xmag_desc=A EoTech Holosigh with 3x magnified optic for shooting at medium range. 
+
+@scope_ym95_3x_name=Y/M-95 3x Optic
+@scope_ym95_3x_desc=3X scope, originally developed for the type-95 rifle, can also be used for other Chinese standard rifle.
+
+@scope_ymal05_name=Y/MAL-05 Optic & LaserPoint
+@scope_ymal05_desc=Matching special aiming device for Type-05 submachine gun with laser point and 2x scope. Fast aiming at close range and more accurate hitting of sentries at medium and long range.
+
+@scope_qbu88scope_name=QBU88 3-9x Scope
+@scope_qbu88scope_desc=Matching scope for QBU88 sniper rifle.
+
+@scope_qmk152_name=QMK-152
+@scope_qmk152_desc=Chinese verssion ACOG with BAC function.
+
+@scope_qmq171_name=QMQ-171
+@scope_qmq171_desc=A holographic scopes made in China.
+
+@scope_hs510c_name=HS-510C
+@scope_hs510c_desc=Holosun HS510C is an open reflex optical sight designed for rifle and carbine applications. Features include Holosun’s Super LED with up to 50k hours battery life, Multi-Reticle System, Solar Failsafe, and Shake Awake.
+
+@scope_hs510hm3x_name=HS-510C HM3X Combo
+@scope_hs510hm3x_desc=Equip this Holosun HS510C Circle Dot Sight w/HM3X Magnifier Combo to adapt to CQB and longer-range scenarios in an instant. 
+
+@scope_qmk191lvpo_name=QMK-191
+@scope_qmk191lvpo_desc=LPVO is a scope that bridges the gap between traditional rifle scope and red dots. It has the magnification range of from 3 to 8.6x times depending upon how you utilize it and the nature of the cases whether extreme or not.
+
+@scope_lromk4_414_name=LR Optic 4-14x
+
+@scope_defaultscope15x_name=Default 1.5x Scope
+@scope_defaultscope15x_desc=Fixed 1.5x scope on the gun, not removable.
+
+@scope_zf6x42hk_name=ZF 6x42
+@scope_zf6x42hk_desc=6x Sniper Scope for HK sniper rifle.
+
+<!-- IOV throw -->
+
+@grenade_iov_v40frag_name=3x V40 Mini Frag
+@grenade_iov_v40fragx2_name=2x V40 Mini Frag
+@grenade_iov_v40frag_desc=The Netherlands V40 grenade is spherical in shape, 6.5 cm high, and 4 cm in diameter - approximately the size of a golf-ball. Due to its small size, a considerable number could be carried.\n\nFuse time: 0.5s\nKill Range: 1.5m\nInjury Range: 2.5m
+
+@grenade_iov_mk3a2offen_name=2x MK3A2 Grenade
+@grenade_iov_mk3a2offen_x1_name=1x MK3A2 Grenade
+@grenade_iov_mk3a2offen_x3_name=3x MK3A2 Offensive Grenade
+@grenade_iov_mk3a2offen_desc=The MK3A2 offensive hand grenade, commonly referred to as the concussion grenade, is designed to produce casualties during close combat while minimizing danger to friendly personnel. The shock waves (overpressure) produced by this grenade when used in enclosed areas are greater than those produced by the fragmentation grenade. It is, therefore, very effective against enemy soldiers located in bunkers, buildings, and fortified areas.\n\nFuse time: 0.5s\nKill Range: 2.2m\nInjury Range: 3.3m
+
+@grenade_iov_rgn_offen_name=2x RGN Grenade
+@grenade_iov_rgn_offen_x1_name=1x RGN Grenade
+@grenade_iov_rgn_offen_x3_name=3x RGN Offensive Grenade
+@grenade_iov_rgn_offen_desc=The RGN offensive grenade with a screwed in fuse weighs 310 grams, of which 112 is charged with an explosive charge. When undermined, at least 220-250 fragments weighing 0,3-0,4 grams are formed.\n\nFuse time: 0.2s\nKill Range: 2.5m\nInjury Range: 3m
+
+@grenade_iov_rgo_frag_name=2x RGO Grenade
+@grenade_iov_rgo_frag_x1_name=1x RGO Grenade
+@grenade_iov_rgo_frag_x3_name=3x RGO Defensive Grenade
+@grenade_iov_rgo_frag_desc=In general, the design of the RGO defensive grenade is similar to the RGN, however there are several serious differences. The energy of the fragments is almost three times the corresponding parameter of the RGN grenade.  At the same time, the fragments quickly lose their energy, so that the new grenade is less dangerous for the throwing and his comrades.\n\nFuse time: 1s\nKill Range: 2m\nInjury Range: 4.2m
+
+@grenade_iov_type82frag_name=2x Type 82-2 Grenade
+@grenade_iov_type82frag_kit_name=4x Type 82-2 Grenade
+
+@grenade_iov_dss161offen_name=2x DSS161 Offensive Grenade
+@grenade_iov_dss161offen_kit_name=4x DSS161 Offensive Grenade
+@grenade_iov_dss161offen_desc=The newest offensive grenades.\n\nFuse time: 0.3s\nKill Range: 1.8m\nInjury Range: 3m
+
+@grenade_iov_type98flashbang_name=2x Type 98 Flashbang
+@grenade_iov_type98flashbang_kit_name=4x Type 98 Flashbang
+
+@grenade_dsq91stinger_name=2x DSQ91 Stinger
+@grenade_dsq91stinger4_name=4x DSQ91 Stinger
+
+@grenade_iov_fsl01smoke_name=2x FSL01 Smoke Grenade
+@grenade_iov_fsl01smoke_kit_name=4x FSL01 Smoke Grenade
+
+@grenade_iov_fyg02smokecan_name=FYG02 Somke Can
+@grenade_iov_fyg02smokecan_desc=A large smoke can, that smoke covers a larger area and lasts longer.\n\nFuse time: Instant\nCoverage Radius: 6m\nBurn time: 60s
+
+@firearm_operation_fullautotwo_name=two set full-auto
+@firearm_operation_duplex_name=Duplex shot
+
+<!-- Test Items -->
+
+@helmet_helmet_name=test helmet
+@firearm_testgun1_name=Test Gun 1
+@firearm_testgun2_name=Test Gun 2
+

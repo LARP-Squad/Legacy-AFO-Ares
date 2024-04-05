@@ -1,0 +1,183 @@
+<HumanIdentities>
+        <!-- CAG -->
+	<Portrait tex="data/textures/portraits/jsoc1.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc2.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc3.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc4.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc5.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc6.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc7.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc8.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc9.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc10.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc11.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc12.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc13.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc14.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc15.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc16.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc17.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc18.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc19.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc20.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc21.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc20.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc21.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc22.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc23.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc24.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc25.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc26.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc27.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc28.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc29.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc30.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc31.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc32.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc33.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc34.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc35.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc36.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc37.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc38.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc39.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc40.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc41.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc42.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc43.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc44.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc45.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc46.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc47.dds" unit="Delta" gender="0"/>
+	<Portrait tex="data/textures/portraits/jsoc48.dds" unit="Delta" gender="0"/>
+
+
+
+	<UnitNames unit0="Delta">
+		<Gender value="0">
+			<Name n="Douglas Watson"/>
+			<Name n="Ryan Hudson"/>
+			<Name n="Jordan McDaniel"/>
+			<Name n="Terry Allison"/>
+			<Name n="Carl Farris"/>
+			<Name n="Frank Merritt"/>
+			<Name n="Dylan Lake"/>
+			<Name n="Cody Meyers"/>
+			<Name n="Christopher Rasmussen"/>
+			<Name n="Marcus Hendrix"/>
+			<Name n="Kristopher Weaver"/>
+			<Name n="Logan Wilcox"/>
+			<Name n="Colin Stanton"/>
+			<Name n="Alan Vance"/>
+			<Name n="George Bacon"/>
+			<Name n="Mitchell Doherty"/>
+			<Name n="Jacob Maxwell"/>
+			<Name n="Daniel Snider"/>
+			<Name n="Matthew Peters"/>
+			<Name n="Luke Sellers"/>
+			<Name n="Grant Underwood"/>
+			<Name n="Zachary Emerson"/>
+			<Name n="Seth Roy"/>
+			<Name n="Spencer Massey"/>
+			<Name n="Cody Faulkner"/>
+			<Name n="Jared Gonzalez"/>
+			<Name n="Jeffrey Dolan"/>
+			<Name n="Billy Rhodes"/>
+			<Name n="Derek McCann"/>
+			<Name n="Jeffrey Goff"/>
+			<Name n="Daniel Albert"/>
+			<Name n="Patrick Schafer"/>
+			<Name n="Rodney Helms"/>
+			<Name n="Craig Patrick"/>
+			<Name n="Lee Daly"/>
+			<Name n="Grant Bush"/>
+			<Name n="Frederick Richardson"/>
+			<Name n="Jamie Albert"/>
+			<Name n="Michael Duncan"/>
+			<Name n="Angel Lester"/>
+			<Name n="Jesse MacDonald"/>
+			<Name n="Bobby Hansen"/>
+			<Name n="Arthur Clay"/>
+			<Name n="Dennis Townsend"/>
+			<Name n="George McConnell"/>
+			<Name n="Calvin Burton"/>
+			<Name n="Shaun Cain"/>
+			<Name n="Lee Rollins"/>
+			<Name n="Clinton Mann"/>
+			<Name n="Eladio Avila"/>
+			<Name n="Jerónimo Arias"/>
+			<Name n="Bartolomé Carreon"/>
+			<Name n="Ezequiel Olivarez"/>
+			<Name n="Leocadio De la Cruz"/>
+			<Name n="Antonio Aparicio"/>
+			<Name n="Eduardo Guillén"/>
+			<Name n="Valentino Mina"/>
+			<Name n="Lucho Palau"/>
+			<Name n="Héctor Campos"/>
+			<Name n="Martín Yepes"/>
+			<Name n="Efraim Murillo"/>
+			<Name n="Raul Leoz"/>
+			<Name n="Carmelo Tafalla"/>
+			<Name n="Vicente Cambeiro"/>
+			<Name n="Gustavo del Pozo"/>
+			<Name n="Bruno Gutiérrez"/>
+			<Name n="Alfonso García"/>
+			<Name n="Guillermo Santángel"/>
+			<Name n="Santino Gilabert"/>
+			<Name n="Matías Manzanedo"/>
+			<Name n="Óscar Carvallo"/>
+			<Name n="Milagros Romero"/>
+			<Name n="Gabriel McCabe"/>
+			<Name n="Lucas Bartlett"/>
+			<Name n="Charles Davidson"/>
+			<Name n="Jeremy Lloyd"/>
+			<Name n="Richard Hamm"/>
+			<Name n="Dakota Maxwell"/>
+			<Name n="Marc King"/>
+			<Name n="Jordan Todd"/>
+			<Name n="Gabriel Ayers"/>
+			<Name n="Bryan Gibbons"/>
+			<Name n="William Schultz"/>
+			<Name n="Oscar Bradford"/>
+			<Name n="Bryan Petty"/>
+			<Name n="Phillip Freeman"/>
+			<Name n="Samuel Bruce"/>
+			<Name n="Christopher Dixon"/>
+			<Name n="Scott Delaney"/>
+			<Name n="Colin Garrison"/>
+			<Name n="Frank Tuttle"/>
+			<Name n="Clinton Slater"/>
+			<Name n="Vincent Nelson"/>
+			<Name n="Taylor Sutherland"/>
+			<Name n="Jonathan Fritz"/>
+			<Name n="Oscar Lake"/>
+			<Name n="Tyler Burgess"/>
+			<Name n="Frederick McBride"/>
+			<Name n="Lance Burgess"/>
+			<Name n="Angel Stanton"/>
+			<Name n="Brendan Church"/>
+			<Name n="Kristopher Travis"/>
+			<Name n="Sean Newell"/>
+			<Name n="Jeremiah Stuart"/>
+			<Name n="Jonathon Warren"/>
+			<Name n="Jason Lindsay"/>
+			<Name n="Calvin Shaffer"/>
+			<Name n="David Craft"/>
+			<Name n="Albert Snyder"/>
+			<Name n="Wesley Welch"/>
+			<Name n="Zachary Patrick"/>
+			<Name n="Kevin Peters"/>
+			<Name n="Lance Lindsay"/>
+			<Name n="Jonathan Larson"/>
+			<Name n="Sean Newton"/>
+			<Name n="Cameron Goodman"/>
+			<Name n="Omar Patton"/>
+			<Name n="Martin Simon"/>
+			<Name n="Alan Wyatt"/>
+			<Name n="Douglas Hill"/>
+			<Name n="Donald Schultz"/>
+			<Name n="Eric Daniel"/>
+
+		</Gender>
+	</UnitNames>
+</HumanIdentities>

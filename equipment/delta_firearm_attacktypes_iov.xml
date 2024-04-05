@@ -1,0 +1,2712 @@
+<!-- all time settings are in milliseconds -->
+<FirearmAttackTypes>
+	<!--
+	<ModifiableParams> - all of these can be modified by abilities
+		min/maxAimTime = This is the time it takes from when the weapon is ready&aimed at the enemy and until we shoot. The final aim time is interpolated between min/max distance to the target (minDistance = minAimTime, maxDistance = maxAimTime).
+		roundsPerSecondOverride = if defined (!= 0), it will overwrite the weapon's "roundsPerSecond" parameter
+		minShots = greater or equal to 1. if greater, then the min number of shots will be fired, even if the target is dead.
+		maxShots = number of shots before waiting "aimTime" again. A value is chosen randomly between min/maxShots, -1 to shoot continuously
+		resetTime = once a shot sequence has finished, we wait for this amount of time before the next shot sequence begins
+		accuracyAdd = modifier for the base accuracy of the weapon. 0 = exactly the weapon's base accuracy
+		followupShotAccuracyAdd = simulates recoil by adding to accuracyModiferPercent for each subsequent shot after the first one
+		critChanceAdd = percent to add to the base critical chance from the weapon/ammo
+	-->
+<!-- JSOC -->
+		<AttackType name="Delta_RapidFireEmergency">
+		<ModifiableParams
+			minAimTime="100"
+			maxAimTime="120"
+			roundsPerSecondOverride="0"
+			minShots="4"
+			maxShots="-1"
+			resetTime="120"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="Delta_close1">
+		<ModifiableParams
+			minAimTime="230"
+			maxAimTime="250"
+			roundsPerSecondOverride="6"
+			minShots="2"
+			maxShots="10"
+			resetTime="230"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="8"
+			critChanceAdd="30"
+		/>
+	</AttackType>
+	
+	<AttackType name="Delta_close2">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="270"
+			roundsPerSecondOverride="5"
+			minShots="2"
+			maxShots="10"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="7"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+	<AttackType name="Delta_med1">
+		<ModifiableParams
+			minAimTime="320"
+			maxAimTime="330"
+			roundsPerSecondOverride="4.5"
+			minShots="3"
+			maxShots="6"
+			resetTime="320"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="4"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+	<AttackType name="Delta_med1_mounted">
+		<ModifiableParams
+			minAimTime="320"
+			maxAimTime="340"
+			roundsPerSecondOverride="2"
+			minShots="3"
+			maxShots="3"
+			resetTime="340"
+			accuracyAdd="30"
+			followupShotAccuracyAdd="35"
+			critChanceAdd="30"
+		/>
+	</AttackType>
+	<AttackType name="Delta_med2">
+		<ModifiableParams
+			minAimTime="330"
+			maxAimTime="350"
+			roundsPerSecondOverride="4"
+			minShots="3"
+			maxShots="6"
+			resetTime="330"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="4"
+		/>
+	</AttackType>
+		<AttackType name="Delta_med2_mounted">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="360"
+			roundsPerSecondOverride="1.8"
+			minShots="2"
+			maxShots="2"
+			resetTime="360"
+			accuracyAdd="25"
+			followupShotAccuracyAdd="30"
+			critChanceAdd="25"
+		/>
+	</AttackType>
+		<AttackType name="Delta_long">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="450"
+			roundsPerSecondOverride="3"
+			minShots="2"
+			maxShots="2"
+			resetTime="400"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="Delta_long_mounted">
+		<ModifiableParams
+			minAimTime="430"
+			maxAimTime="450"
+			roundsPerSecondOverride="1"
+			minShots="2"
+			maxShots="2"
+			resetTime="450"
+			accuracyAdd="20"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="25"
+		/>
+	</AttackType>
+<!-- SHOTGUN -->
+
+	<AttackType name="CHSOF_ShotgunFireEmergency">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="1"
+			resetTime="100"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+	
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ShotgunAimedFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="400"
+			roundsPerSecondOverride="3"
+			minShots="2"
+			maxShots="3"
+			resetTime="100"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+	
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ShotgunAimedFireMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="600"
+			roundsPerSecondOverride="2"
+			minShots="2"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ShotgunAimedFireLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="1.5"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ShotgunAimedFireLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1100"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="1100"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+<!-- Carbine AttackType -->
+
+	<AttackType name="RRC_RapidFireClose">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="325"
+			roundsPerSecondOverride="7.5"
+			minShots="2"
+			maxShots="5"
+			resetTime="150"
+			accuracyAdd="20"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_RapidFire">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			roundsPerSecondOverride="6.8"
+			minShots="2"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="20"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_RapidFireMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="500"
+			roundsPerSecondOverride="6"
+			minShots="2"
+			maxShots="4"
+			resetTime="150"
+			accuracyAdd="10"
+			followupShotAccuracyAdd="25"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_RapidFireLong">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="600"
+			roundsPerSecondOverride="4.7"
+			minShots="2"
+			maxShots="4"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+	
+	
+	<AttackType name="iov_Rangers_RapidFireShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			roundsPerSecondOverride="7"
+			minShots="2"
+			maxShots="5"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="15"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+
+	<!--
+		DELTA FORCE AttackType
+	-->
+
+	<AttackType name="CAG_RapidFireEmergency">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="275"
+			roundsPerSecondOverride="8"
+			minShots="4"
+			maxShots="5"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="CAG_RapidFireShort">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="300"
+			roundsPerSecondOverride="6.5"
+			minShots="3"
+			maxShots="5"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="CAG_RapidFireMed">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			roundsPerSecondOverride="5"
+			minShots="2"
+			maxShots="5"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="CAG_RapidFireLong">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="550"
+			roundsPerSecondOverride="3.5"
+			minShots="2"
+			maxShots="4"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<!--
+		Ranger RRC
+	-->
+
+	<AttackType name="RRC_CarbineAutoFire">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="300"
+			minShots="2"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-3"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_CarbineBurstFire">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="2"
+			resetTime="200"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_RapidFireMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="500"
+			roundsPerSecondOverride="6"
+			minShots="2"
+			maxShots="4"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="RRC_CarbineAimedFire">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="700"
+			roundsPerSecondOverride="3"
+			minShots="1"
+			maxShots="2"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<!--
+		L1A1 / FAL
+	-->
+	<AttackType name="SAS_SLR_AutoFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-20"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+	
+	<AttackType name="SAS_SLR_DoubleFireClose">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			roundsPerSecondOverride="6"
+			minShots="2"
+			maxShots="2"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="SAS_SLR_DoubleFire">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="400"
+			roundsPerSecondOverride="5.5"
+			minShots="2"
+			maxShots="2"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="SAS_SLR_RapidFireMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			roundsPerSecondOverride="5"
+			minShots="2"
+			maxShots="5"
+			resetTime="450"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<!--
+		High RPM SMG
+	-->
+	<AttackType name="HighRPMWildFireShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="7"
+			maxShots="13"
+			resetTime="300"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMWildBurst">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="600"
+			minShots="5"
+			maxShots="9"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMWildBurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="4"
+			maxShots="6"
+			resetTime="700"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-9"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMWildBurstLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="5"
+			maxShots="15"
+			resetTime="900"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-3"
+		/>
+	</AttackType>
+
+	<!--
+		Chinese Assault Rifle
+	-->
+<!-- RIFLE -->
+	<AttackType name="CNSOF_RifleAutoFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_RifleBurstFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="2"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_RifleRapidFireMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			roundsPerSecondOverride="7"
+			minShots="2"
+			maxShots="5"
+			resetTime="400"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNAKWildFireShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="7"
+			maxShots="10"
+			resetTime="200"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNAKWildFire">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="3"
+			maxShots="10"
+			resetTime="350"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNAKWildBurst">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="600"
+			minShots="3"
+			maxShots="7"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNAKWildBurstLong">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="6"
+			resetTime="800"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNAKWildBurstLongXX">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="6"
+			resetTime="800"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+<!-- SCOUT SMG -->
+	
+	<AttackType name="CHSOF_ScoutSMG_Close">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="275"
+			minShots="3"
+			maxShots="8"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ScoutSMG_Short">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="350"
+			minShots="4"
+			maxShots="9"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ScoutSMG_Med">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="500"
+			minShots="3"
+			maxShots="6"
+			resetTime="600"
+			accuracyAdd="-25"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ScoutSMG_Long">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="4"
+			resetTime="800"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ScoutSMG_LongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="2"
+			maxShots="3"
+			resetTime="1000"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-15"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<AttackType name="CHSOF_ScoutSMG_LongSemiXX">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1300"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+
+<!-- SCOUT PISTOL -->
+	
+	<AttackType name="CNSOF_ScoutPistolRapidFire">
+		<ModifiableParams
+			minAimTime="175"
+			maxAimTime="200"
+			minShots="3"
+			maxShots="6"
+			resetTime="200"
+			accuracyAdd="20"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_ScoutPistolControlled3">
+		<ModifiableParams
+			minAimTime="200"
+			maxAimTime="250"
+			roundsPerSecondOverride="4.5"
+			minShots="2"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="10"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+
+<!-- CARBINE -->
+	<AttackType name="CNSOF_CarbineAutoFireClose">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="300"
+			minShots="2"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-70"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineAutoFireShort">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="4"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineBurstShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="2"
+			maxShots="2"
+			resetTime="350"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="20"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineRapidFireShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			roundsPerSecondOverride="6"
+			minShots="2"
+			maxShots="5"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="15"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineAutoFireMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="2"
+			maxShots="4"
+			resetTime="350"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineBurstMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="2"
+			maxShots="2"
+			resetTime="400"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+	
+	<AttackType name="CNSOF_CarbineRapidFireMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="600"
+			roundsPerSecondOverride="4.5"
+			minShots="2"
+			maxShots="4"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="15"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_CarbineAimedFire">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="700"
+			roundsPerSecondOverride="2"
+			minShots="2"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+	
+<!-- SBR -->
+	<AttackType name="CNSOF_SBRAutoFireClose">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="275"
+			minShots="2"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRAutoFireShort">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="5"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRBurstShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="2"
+			maxShots="3"
+			resetTime="350"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="15"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRBurstMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="2"
+			maxShots="3"
+			resetTime="375"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRAimedFire">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="700"
+			roundsPerSecondOverride="3"
+			minShots="2"
+			maxShots="5"
+			resetTime="400"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRBurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="2"
+			maxShots="3"
+			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRAimedFireLong">
+		<ModifiableParams
+			minAimTime="750"
+			maxAimTime="1000"
+			roundsPerSecondOverride="2"
+			minShots="2"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="-120"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRAimedFireLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1200"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="200"
+			accuracyAdd="-150"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_SBRAimedFireLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1200"
+			minShots="2"
+			maxShots="3"
+			resetTime="600"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+
+<!-- China DMR -->
+	<AttackType name="CNSOF_DMRRapidFireLong">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="600"
+			roundsPerSecondOverride="5"
+			minShots="1"
+			maxShots="4"
+			resetTime="400"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_DMRRapidFireLongMounted">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="400"
+			roundsPerSecondOverride="3"
+			minShots="1"
+			maxShots="3"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+<!-- China Sniper -->
+	<AttackType name="CNSWAT_SniperCloseMounted">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="550"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="0"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="35"
+			critChanceAdd="50"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSWAT_SniperMedMounted">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="650"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="100"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="35"
+			critChanceAdd="50"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_AN94BurstMed">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="600"
+			roundsPerSecondOverride="33"
+			minShots="2"
+			maxShots="2"
+			resetTime="600"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_AN94BurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="33"
+			minShots="2"
+			maxShots="2"
+			resetTime="750"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_AN94BurstLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="900"
+			roundsPerSecondOverride="33"
+			minShots="2"
+			maxShots="2"
+			resetTime="1000"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<!--
+		QBU191LMG
+	-->
+
+	<AttackType name="CNSOF_HBARStrafeShort">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="3"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_HBARStrafeShortMounted">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="15"
+			resetTime="150"
+			accuracyAdd="-35"
+			followupShotAccuracyAdd="-0.5"
+			critChanceAdd="1"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_HBARStrafe">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="600"
+			minShots="3"
+			maxShots="9"
+			resetTime="300"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="-2.5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_HBARStrafeMounted">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="4"
+			maxShots="12"
+			resetTime="120"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-0.5"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_HBARStrafeMed">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			minShots="3"
+			maxShots="9"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_HBARStrafeMedMounted">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="3"
+			maxShots="7"
+			resetTime="150"
+			accuracyAdd="-12"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_HBARStrafeLong">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="7"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_HBARBurstLongMounted">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="700"
+			minShots="3"
+			maxShots="5"
+			resetTime="250"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CNSOF_HBARBurstLongXX">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1200"
+			minShots="2"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="CNSOF_HBARBurstLongXXMounted">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_SMGBurstTwoFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="2"
+			maxShots="2"
+			resetTime="200"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="-3"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_SMGBurstTwoFireMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="650"
+			roundsPerSecondOverride="0"
+			minShots="2"
+			maxShots="2"
+			resetTime="450"
+			accuracyAdd="-80"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_SMGBurstFireMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="650"
+			roundsPerSecondOverride="0"
+			minShots="3"
+			maxShots="3"
+			resetTime="450"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_SMGBurstFireLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="700"
+			roundsPerSecondOverride="0"
+			minShots="3"
+			maxShots="3"
+			resetTime="450"
+			accuracyAdd="-80"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_LMGStrafeMedMountedXX">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="700"
+			roundsPerSecondOverride="0"
+			minShots="3"
+			maxShots="9"
+			resetTime="120"
+			accuracyAdd="-7"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_LMGStrafeLongMountedXX">
+		<ModifiableParams
+			minAimTime="700"
+			maxAimTime="900"
+			roundsPerSecondOverride="0"
+			minShots="4"
+			maxShots="12"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_LMGStrafeLongXXMountedXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1000"
+			roundsPerSecondOverride="0"
+			minShots="5"
+			maxShots="15"
+			resetTime="250"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_RPKStrafeLongXX">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="0"
+			minShots="2"
+			maxShots="2"
+			resetTime="1200"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+
+	<!--
+		MP5K
+	-->
+	<AttackType name="MiniSMGAutoFire">
+		<ModifiableParams
+			minAimTime="275"
+			maxAimTime="275"
+			minShots="3"
+			maxShots="9"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="-8"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGBurstFire">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="300"
+			minShots="3"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGBurstFireMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="3"
+			maxShots="3"
+			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-6"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGAutoFireMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="450"
+			minShots="3"
+			maxShots="5"
+			resetTime="350"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-6"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGAutoFireLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="6"
+			resetTime="700"
+			accuracyAdd="-80"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGAutoFireLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="4"
+			maxShots="9"
+			resetTime="1000"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<!--
+		MP5K-PDW
+	-->
+	<AttackType name="MiniSMGStockBurst">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="-3"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGStockBurstMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="550"
+			minShots="3"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-7"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGStockAutoLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="6"
+			resetTime="500"
+			accuracyAdd="-80"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-11"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGStockAutoLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="4"
+			maxShots="9"
+			resetTime="700"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<!--
+		HK SMG
+	-->
+	<AttackType name="MiniSMGStockBurstSMG2">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			roundsPerSecondOverride="8.3"
+			minShots="3"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGStockBurstMedSMG2">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="550"
+			roundsPerSecondOverride="8.3"
+			minShots="3"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="MiniSMGStockAutoLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="6"
+			resetTime="500"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="-11"
+		/>
+	</AttackType>
+
+	<!--
+		PP-2000
+	-->
+	<AttackType name="PPStockFireShort">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="300"
+			minShots="7"
+			maxShots="10"
+			resetTime="250"
+			accuracyAdd="-0"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPStockBurst">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="4"
+			maxShots="8"
+			resetTime="350"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPStockBurstMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="4"
+			maxShots="8"
+			resetTime="500"
+			accuracyAdd="-45"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPStockBurstLong">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="750"
+			minShots="3"
+			maxShots="6"
+			resetTime="700"
+			accuracyAdd="-70"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPStockBurstLongXX">
+		<ModifiableParams
+			minAimTime="850"
+			maxAimTime="950"
+			minShots="3"
+			maxShots="6"
+			resetTime="900"
+			accuracyAdd="-90"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<!--
+		PP-2000 No Stock
+	-->
+	<AttackType name="PPWildFireShort">
+		<ModifiableParams
+			minAimTime="200"
+			maxAimTime="200"
+			minShots="7"
+			maxShots="10"
+			resetTime="200"
+			accuracyAdd="-0"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPWildBurst">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="4"
+			maxShots="8"
+			resetTime="300"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPWildBurstMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="600"
+			minShots="4"
+			maxShots="8"
+			resetTime="500"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-7"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPWildBurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="6"
+			resetTime="800"
+			accuracyAdd="-70"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="PPWildBurstLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="6"
+			resetTime="800"
+			accuracyAdd="-90"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+<!-- High RPM SMG -->
+	<AttackType name="HighRPMSMG_Close">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="300"
+			minShots="5"
+			maxShots="10"
+			resetTime="200"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMSMG_Short">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="6"
+			maxShots="13"
+			resetTime="300"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="2"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMSMG_Med">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="5"
+			maxShots="9"
+			resetTime="600"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-6"
+			critChanceAdd="-4"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMSMG_Long">
+		<ModifiableParams
+			minAimTime="700"
+			maxAimTime="850"
+			minShots="4"
+			maxShots="7"
+			resetTime="800"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-12"
+			critChanceAdd="-6"
+		/>
+	</AttackType>
+
+	<AttackType name="HighRPMSMG_LongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1200"
+			minShots="4"
+			maxShots="7"
+			resetTime="1000"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-25"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<!--
+		AA-12
+	-->
+	<AttackType name="IOV_FullAutoShotgunFireColse">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			minShots="2"
+			maxShots="3"
+			resetTime="150"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+	
+		/>
+	</AttackType>
+
+	<AttackType name="IOV_FullAutoShotgunFireColseMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="2"
+			maxShots="4"
+			resetTime="300"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-3"
+		/>
+	</AttackType>
+
+	<AttackType name="IOV_FullAutoShotgunFireColseLong">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="4"
+			resetTime="500"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="IOV_FullAutoShotgunFireColseLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1000"
+			roundsPerSecondOverride="5"
+			minShots="2"
+			maxShots="8"
+			resetTime="800"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-20"
+			critChanceAdd="-7"
+		/>
+	</AttackType>
+
+
+	<AttackType name="IOV_BurstShotgunFireColseMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			roundsPerSecondOverride="4"
+			minShots="3"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="IOV_BurstShotgunFireColseLong">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="800"
+			roundsPerSecondOverride="4"
+			minShots="3"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-35"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<!--
+		M1918 BAR
+	-->
+	<AttackType name="BAR2_LMGStrafeShort">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="450"
+			roundsPerSecondOverride="10.9"
+			minShots="4"
+			maxShots="9"
+			resetTime="300"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="-20"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="BAR2_LMGStrafeShortMounted">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			roundsPerSecondOverride="10.9"
+			minShots="3"
+			maxShots="7"
+			resetTime="150"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="1"
+		/>
+	</AttackType>
+
+	<AttackType name="BAR2_LMGStrafe">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="700"
+			roundsPerSecondOverride="10.9"
+			minShots="5"
+			maxShots="10"
+			resetTime="350"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="BAR2_LMGStrafeMounted">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="450"
+			roundsPerSecondOverride="10.9"
+			minShots="3"
+			maxShots="6"
+			resetTime="150"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="-0.5"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<AttackType name="BAR2_LMGStrafeMed">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="500"
+			roundsPerSecondOverride="0"
+			minShots="2"
+			maxShots="3"
+			resetTime="400"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="BAR2_LMGStrafeMedMounted">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="550"
+			roundsPerSecondOverride="10.9"
+			minShots="3"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="-7"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="BAR2_LMGStrafeLong">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="900"
+			roundsPerSecondOverride="0"
+			minShots="2"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-12"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="BAR2_LMGStrafeLongMounted">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="700"
+			roundsPerSecondOverride="10.9"
+			minShots="3"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="BAR2_LMGStrafeLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1000"
+			roundsPerSecondOverride="0"
+			minShots="2"
+			maxShots="3"
+			resetTime="800"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="BAR2_LMGStrafeLongXXMounted">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="900"
+			roundsPerSecondOverride="10.9"
+			minShots="2"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+
+	<!--
+		M82A1
+	-->
+	<AttackType name="M82A1_RapidFireClose">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1300"
+			minShots="1"
+			maxShots="2"
+			resetTime="1000"
+			accuracyAdd="-200"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="M82A1_AimFireCloseMounted">
+		<ModifiableParams
+			minAimTime="750"
+			maxAimTime="900"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="M82A1_AimFireShort">
+		<ModifiableParams
+			minAimTime="1800"
+			maxAimTime="2000"
+			minShots="1"
+			maxShots="1"
+			resetTime="2200"
+			accuracyAdd="-250"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="M82A1_AimFirShortMounted">
+		<ModifiableParams
+			minAimTime="950"
+			maxAimTime="1100"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="M82A1_AimFireMed">
+		<ModifiableParams
+			minAimTime="2200"
+			maxAimTime="2500"
+			minShots="1"
+			maxShots="1"
+			resetTime="2600"
+			accuracyAdd="-250"
+			followupShotAccuracyAdd="-3"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="M82A1_AimFireMedMounted">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1300"
+			minShots="1"
+			maxShots="1"
+			resetTime="1300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="M82A1_AimFireLong">
+		<ModifiableParams
+			minAimTime="2700"
+			maxAimTime="3000"
+			minShots="1"
+			maxShots="1"
+			resetTime="3000"
+			accuracyAdd="-250"
+			followupShotAccuracyAdd="-4"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="M82A1_AimFireLongMounted">
+		<ModifiableParams
+			minAimTime="1300"
+			maxAimTime="1450"
+			minShots="1"
+			maxShots="1"
+			resetTime="1700"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="M82A1_AimFireLongXX">
+		<ModifiableParams
+			minAimTime="3200"
+			maxAimTime="3500"
+			minShots="1"
+			maxShots="1"
+			resetTime="3400"
+			accuracyAdd="-250"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	<AttackType name="M82A1_AimFireLongXXMounted">
+		<ModifiableParams
+			minAimTime="1450"
+			maxAimTime="1600"
+			minShots="1"
+			maxShots="1"
+			resetTime="2000"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<!--
+		G11K2
+	-->
+	<AttackType name="G11K2_FullAutoClose">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="450"
+			minShots="3"
+			maxShots="6"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="G11K2_BurstMed">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="600"
+			roundsPerSecondOverride="35"
+			minShots="3"
+			maxShots="3"
+			resetTime="550"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="G11K2_BurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="35"
+			minShots="3"
+			maxShots="3"
+			resetTime="800"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="G11K2_BurstLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="900"
+			roundsPerSecondOverride="35"
+			minShots="3"
+			maxShots="3"
+			resetTime="1000"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<!--
+		VP70
+	-->
+	<AttackType name="VP70_BurstClose">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="3"
+			maxShots="3"
+			resetTime="450"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+	
+	<AttackType name="VP70_BurstMed">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="3"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+	
+	<AttackType name="VP70_BurstLong">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="800"
+			minShots="3"
+			maxShots="3"
+			resetTime="600"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="VP70_AimedFireLong">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1050"
+			roundsPerSecondOverride="2.5"
+			minShots="2"
+			maxShots="5"
+			resetTime="175"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+	
+	<AttackType name="VP70_AimedFireLongXX">
+		<ModifiableParams
+			minAimTime="1050"
+			maxAimTime="1100"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="175"
+			accuracyAdd="-25"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<!--
+		Galil ARM
+	-->
+	<AttackType name="AssaultRifle_BurstFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="5"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="AssaultRifle_BurstFireMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="600"
+			minShots="2"
+			maxShots="4"
+			resetTime="450"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="AssaultRifle_BurstFireMedLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			minShots="2"
+			maxShots="3"
+			resetTime="600"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<!--
+		M60
+	-->
+
+	<AttackType name="iov_Rangers_LMGStrafeLong3">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1000"
+			minShots="3"
+			maxShots="5"
+			resetTime="500"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_LMGStrafeLongXX3">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1200"
+			minShots="3"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Rangers_GPMGStrafeMed3">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1200"
+			minShots="3"
+			maxShots="4"
+			resetTime="500"
+			followupShotAccuracyAdd="0"
+			accuracyAdd="-20"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_GPMGStrafeLong3">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1200"
+			minShots="3"
+			maxShots="3"
+			resetTime="600"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_GPMGStrafeLongXX3">
+		<ModifiableParams
+			minAimTime="1500"
+			maxAimTime="1500"
+			minShots="3"
+			maxShots="3"
+			resetTime="800"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="-1"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Rangers_GPMGStrafeLongXXMounted">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1200"
+			minShots="3"
+			maxShots="3"
+			resetTime="250"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<!--
+		Europe Assault Rifle
+	-->
+
+	<AttackType name="Europe_AutoFireClose">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="8"
+			resetTime="300"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="Europe_BurstFireMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="600"
+			minShots="3"
+			maxShots="3"
+			resetTime="300"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Europe_RaipeFireLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="4"
+			minShots="2"
+			maxShots="5"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="Europe_BurstFireLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			minShots="2"
+			maxShots="3"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="Europe_BurstFireLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="900"
+			minShots="2"
+			maxShots="3"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<!--
+		BIG BORE Handgun
+	-->
+
+	<AttackType name="BigBore_PairClose">
+		<ModifiableParams
+			minAimTime="200"
+			maxAimTime="200"
+			roundsPerSecondOverride="3.5"
+			minShots="2"
+			maxShots="3"
+			resetTime="350"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+
+	<AttackType name="BigBore_PairMed">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="430"
+			roundsPerSecondOverride="3"
+			minShots="1"
+			maxShots="3"
+			resetTime="420"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+
+	<AttackType name="BigBore_PairLong">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="800"
+			roundsPerSecondOverride="2.5"
+			minShots="2"
+			maxShots="2"
+			resetTime="500"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="15"
+		/>
+	</AttackType>
+
+	<!--
+		RUSSIAN Assault Rifle
+	-->
+
+	<AttackType name="RUSSIAN_RifleStrafeShort">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="7"
+			resetTime="300"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_RifleStrafeMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="600"
+			minShots="3"
+			maxShots="5"
+			resetTime="250"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="-2.5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_RifleBurstLong">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			minShots="2"
+			maxShots="4"
+			resetTime="300"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_RifleBurstLongXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="900"
+			minShots="2"
+			maxShots="2"
+			resetTime="350"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<!--
+		RUSSIAN Mirco Rifle
+	-->
+
+	<AttackType name="RUSSIAN_MicroRifleAutoFire">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="300"
+			minShots="3"
+			maxShots="7"
+			resetTime="200"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="-8"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_MicroRifleBurstFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="3"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_MicroRifleBurstFireMed">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="3"
+			maxShots="3"
+			resetTime="200"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_MicroRifleBurstFireLong">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="650"
+			minShots="2"
+			maxShots="3"
+			resetTime="400"
+			accuracyAdd="-15"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="5"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_MicroRifleAimedFire">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			roundsPerSecondOverride="2"
+			minShots="1"
+			maxShots="2"
+			resetTime="200"
+			accuracyAdd="-120"
+			followupShotAccuracyAdd="3"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+	<AttackType name="RUSSIAN_MicroRifleAimedFireXX">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1200"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="200"
+			accuracyAdd="-150"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+
+	<!--
+		12Ga Frag
+	-->
+	<AttackType name="12GaFrag_QuickAimClose">
+		<ModifiableParams
+			minAimTime="200"
+			maxAimTime="300"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="12GaFrag_QuickAim">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<!--
+		Sniper Rifle
+	-->
+	<AttackType name="Sniper_SemiAutoFireClose">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="500"
+			minShots="1"
+			maxShots="2"
+			resetTime="500"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="-30"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireMed">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="650"
+			minShots="1"
+			maxShots="2"
+			resetTime="500"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireMedMounted">
+		<ModifiableParams
+			minAimTime="500"
+			maxAimTime="500"
+			minShots="1"
+			maxShots="4"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFire">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="700"
+			minShots="1"
+			maxShots="2"
+			resetTime="500"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="10"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireMounted">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="550"
+			minShots="1"
+			maxShots="1"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="35"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireLong">
+		<ModifiableParams
+			minAimTime="650"
+			maxAimTime="750"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="-30"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireLongXX">
+		<ModifiableParams
+			minAimTime="750"
+			maxAimTime="850"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="Sniper_SemiAutoFireXXMounted">
+		<ModifiableParams
+			minAimTime="550"
+			maxAimTime="650"
+			minShots="1"
+			maxShots="1"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="15"
+			critChanceAdd="35"
+		/>
+	</AttackType>
+
+	<!--
+		Recoilless Rifle
+	-->
+	<AttackType name="iov_Recoilless_Rifle_QuickAimClose">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="900"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="iov_Recoilless_Rifle_Aim">
+		<ModifiableParams
+			minAimTime="900"
+			maxAimTime="1600"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="-3"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+	
+	<AttackType name="iov_Recoilless_Rifle_AimLong">
+		<ModifiableParams
+			minAimTime="1600"
+			maxAimTime="2400"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+</FirearmAttackTypes>

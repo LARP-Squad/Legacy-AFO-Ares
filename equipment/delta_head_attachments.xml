@@ -1,0 +1,467 @@
+<Equipment>
+
+
+
+
+<!------------------------------------------FAST LEGACY---------------------------------------------->
+
+	<Bind eqp="delta_FASTXP_MC">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+    </Bind>
+    <Helmet name="delta_FASTXP_MC" inventoryBinding="Helmet" unlockCost="0"
+            tooltip="FAST XP MC"
+            description="FAST XP CAG variant, being phased out in favour of the FAST SF."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTXPjsoc.khm" diffuseTex="data/models/humans/attachments/helmetFASTXPjsocMC.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="12" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+
+	<Bind eqp="delta_FASTMT_AOR1">
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTMT_AOR1" inventoryBinding="Helmet" unlockCost="0"
+            tooltip="FAST MT AOR1"
+            description="FAST MT DEVGRU variant, being phased out in favour of discontinued FAST MTs in Multicam, and newer FAST SF helmets."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_aor12.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+<!------------------------------------------FAST MT---------------------------------------------->
+
+	<Bind eqp="delta_FASTMT_MC">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTMT_MC" inventoryBinding="Helmet" unlockCost="1"
+            tooltip="FAST MT MC"
+            description="Super high cut FAST variant, now discontinued in favour of the FAST SF."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_mc2.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+	
+	<Bind eqp="delta_FASTCover_MC">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTCover_MC" inventoryBinding="Helmet" unlockCost="1"
+            tooltip="FAST MT MC(Cover)"
+            description="Super high cut FAST variant, now discontinued in favour of the FAST SF."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_mc_cover.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+
+	<Bind eqp="delta_FASTMT_TAN">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTMT_TAN" inventoryBinding="Helmet" unlockCost="1"
+            tooltip="FAST MT Tan"
+            description="Super high cut FAST variant, now discontinued in favour of the FAST SF."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_tan1.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+	
+		<!------------------------------------------FAST SF/XR---------------------------------------------->
+	<Bind eqp="delta_FASTSF_MC">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTSF_MC" inventoryBinding="Helmet" unlockCost="1"
+            tooltip="FAST SF MC"
+            description="Newer FAST SF helmet, phasing out FAST MT."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_mc1.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+        </Params>
+    </Helmet>
+
+	<Bind eqp="delta_FASTXR_MC">
+        <to name="cag1"/>
+        <to name="cag2"/>
+        <to name="cag3"/>
+        <to name="cag4"/>
+        <to name="cag5"/>
+        <to name="cag6"/>
+        <to name="cag7"/>
+        <to name="cag8"/>
+    </Bind>
+    <Helmet name="delta_FASTXR_MC" inventoryBinding="Helmet" unlockCost="3"
+            tooltip="FAST XR MC"
+            description="The latest model from Gentex, Ops-Core FAST XR offers projectile resistance up to 7.62x39mm lead core ammunition while still keeping the weight relatively low."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-4" turnSpeedModifierPercent="-2"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTMTheadset.khm" diffuseTex="data/models/humans/attachments/delta_helmet_xr_mc.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="7"/>
+        </Params>
+    </Helmet>
+
+	<Bind eqp="isa_FAST_Carbon">
+        <to name="isa1"/>
+        <to name="isa2"/>
+        <to name="isa3"/>
+        <to name="isa4"/>
+    </Bind>
+    <Helmet name="isa_FAST_Carbon" inventoryBinding="Helmet" unlockCost="3"
+            tooltip="FAST Carbon"
+            description="Non-ballistic carbon fiber helmet."
+            img="data/models/humans/attachments/helmetFASTMT_iovui.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-4" turnSpeedModifierPercent="-2"/>
+        <RenderObject3D model="data/models/humans/attachments/helmetFASTXPjsoc.khm" diffuseTex="data/models/humans/attachments/jsoc_xp_carbon.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="360" coveragePercent="12" piercingProtectionLevel="0"/>
+        </Params>
+    </Helmet>
+	
+	<!------------------------------------------caps------------------------------------->
+	
+	<Bind eqp="CapTan">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="CapTan" inventoryBinding="Helmet" unlockCost="1"
+			tooltip="Cap tan"
+			description="When you want to be more clandestine, or play baseball, you'll a need a cool cap!"
+			img="data/models/humans/attachments/cia_cap_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/cia_cap.khm" diffuseTex="data/models/humans/attachments/cia_cap_tan.dds" attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="CapMC">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="CapMC" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="Cap Mc"
+			description="When you want to be more clandestine, or play baseball, you'll a need a cool cap!"
+			img="data/models/humans/attachments/cia_cap_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/cia_cap.khm" diffuseTex="data/models/humans/attachments/cia_cap_mc.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="CapOD">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="CapOD" inventoryBinding="Helmet" unlockCost="1"
+			tooltip="Cap OD"
+			description="When you want to be more clandestine, or play baseball, you'll a need a cool cap!"
+			img="data/models/humans/attachments/cia_cap_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/cia_cap.khm" diffuseTex="data/models/humans/attachments/cia_cap_od.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="CapBlack">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="CapBlack" inventoryBinding="Helmet" unlockCost="1"
+			tooltip="Cap MC Black"
+			description="When you want to be more clandestine, or play baseball, you'll a need a cool cap!"
+			img="data/models/humans/attachments/cia_cap_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/cia_cap.khm" diffuseTex="data/models/humans/attachments/cia_cap_black.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="delta_iov_Bonnie_mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Helmet name="delta_iov_Bonnie_mc" inventoryBinding="Helmet" unlockCost="2"
+			tooltip="Boonie MC"
+			description="Perfect for RECCE, and tropical climates."
+			img="data/models/humans/attachments/bonnie_iovui.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="10" turnSpeedModifierPercent="3"/>
+		<RenderObject3D model="data/models/humans/attachments/bonnie_iov.khm" diffuseTex="data/models/humans/attachments/boonie_mc.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="ISA_Pakol">
+                <to name="cag1"/>
+                <to name="cag2"/>
+                <to name="cag3"/>
+                <to name="cag4"/>
+                <to name="cag5"/>
+                <to name="cag6"/>
+                <to name="cag7"/>
+                <to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="ISA_Pakol" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="Pakol"
+			description="@helmet_CIA_localhat_desc"
+			img="data/models/humans/attachments/cia_beret_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/cia_beret.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_01.dds" attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+	
+	<Bind eqp="ISA_Bandana">
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="ISA_Bandana" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="Bandana"
+			description="@helmet_CIA_localhat_desc"
+			img="data/models/humans/attachments/cia_beret_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+		<RenderObject3D model="data/models/humans/attachments/swat_militia_hair.khm" diffuseTex="data/models/humans/attachments/swat_militia_hair.dds" attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+
+	<Bind eqp="ISA_Turban">
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Helmet name="ISA_Turban" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="Turban"
+			description="@helmet_CIA_localhat_desc"
+			img="data/models/humans/attachments/cia_beret_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="2" />
+		<RenderObject3D model="data/models/humans/attachments/enemy_head_turban.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/> attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>
+
+<Bind eqp="delta_iov_NVG_PNVG18">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<HelmetNVG name="delta_iov_NVG_PNVG18" inventoryBinding="HelmetNVG" unlockCost="15"
+			tooltip="GPNVG-18 Quad-Tube NVG"
+			description="Iconic quad-tube panoramic Night Vision Device. 
+It offers an ultra wide Field Of View at the cost of bulkiness and reduced mobility. Only $39,999! 
+
+Allows you to engage enemies in the dark while remaining hidden yourself - until you open fire."
+			img="data/models/humans/attachments/nvg_gpnvg18iov_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-4" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="-1" />
+
+		<!-- fov params overwrite the base ones -->
+		<ModifiableParams
+			fovDegrees="90"
+			fovRadiusMeters="0.45"
+			fovRangeMeters="999"
+		/>
+
+		<!-- this is shown for daylight missions -->
+		<RenderObject3D model="data/models/humans/attachments/nvg_gpnvg18iov_up.khm" diffuseTex="data/models/humans/attachments/nvg_gpnvg18iov.dds" attachSlot="nvg">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+
+		<!-- this is shown in night missions -->
+		<RenderObject3D model="data/models/humans/attachments/nvg_gpnvg18iov.khm" diffuseTex="data/models/humans/attachments/nvg_gpnvg18iov.dds" attachSlot="nvg">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>
+		<RenderObject3D model="data/models/humans/attachments/nvg_gpnvg18iov_lights.khm" diffuseTex="data/textures/fx/light_flare_01.dds" diffuseColor="84ff47" blendMode="add" attachSlot="nvg">
+		</RenderObject3D>		
+	</HelmetNVG>
+<!--
+	<Bind eqp="CapNowherakiAssaulter" to="NowherakiAssaulter"/>
+	<Helmet name="CapNowherakiAssaulter" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_CIA_basiccap_name"
+			description="When you want to be more clandestine, or play baseball, you'll a need a cool cap!"
+			img="data/models/humans/attachments/cia_cap_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="3" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+		<RenderObject3D model="data/models/humans/attachments/cia_cap.khm" diffuseTex="data/models/humans/attachments/swsat_cap.dds" attachSlot="Bip001 Head"/>
+
+		<Params protectionInfoText="@equipment_protect2" allowNVG="false">
+			<ProtectionArc degrees="360" coveragePercent="0" piercingProtectionLevel="0"/>
+		</Params>
+	</Helmet>-->
+
+</Equipment>

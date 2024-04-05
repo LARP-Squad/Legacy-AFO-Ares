@@ -1,0 +1,1913 @@
+<Equipment>
+<!--
+	We need to add existing equipment to our new unit. If we don't do this, they won't show up in the troops' customization menu.
+	We're going to setup SpecialForces so that they can use all equipment in the game, while showing the multiple ways it can be done.
+-->
+
+<!-- you can do this, and specify each equipment and what classes of SpecialForces can use it. You can only specify *some* classes for each equipment -->
+
+<!-- you can also do it like this, specifying 'to' first then adding all equipment below  -->
+
+<!-- you can also bind an entire equipment category directly, so instead of binding each singular helmet, we can bind them all at the same time. -->
+<!--	<Bind eqp="Helmet" to="SpecialForces"/>
+	<Bind eqp="NVG" to="SpecialForces"/>
+	<Bind eqp="NVG_02" to="SpecialForces"/>	-->
+	<!--
+	   These would be all the individual helmets/NVGs we should've otherwise specified:
+		<Bind eqp="HelmetACH" to="SpecialForces"/>
+		<Bind eqp="HelmetFAST" to="SpecialForces"/>
+		<Bind eqp="HelmetFASTMandible" to="SpecialForces"/>
+		<Bind eqp="HelmetFASTRF" to="SpecialForces"/>
+		<Bind eqp="HelmetIHPS" to="SpecialForces"/>
+		<Bind eqp="CapUndercover" to="SpecialForces"/>
+		<Bind eqp="CapBlackOps" to="SpecialForces"/>
+		<Bind eqp="HelmetBumpBlackOps" to="SpecialForces"/>
+		<Bind eqp="HelmetFASTBlackOps" to="SpecialForces"/>
+		<Bind eqp="SantaHat" to="SpecialForces"/>
+		
+		<Bind eqp="NVG" to="SpecialForces"/>
+		<Bind eqp="NVG_02" to="SpecialForces"/>	
+	-->
+	
+<!-- we could have also done that for all grenades above, by using: -->
+	<!-- <Bind eqp="Grenade" to="SpecialForces"/> -->
+<!-- or for explosives, via: -->
+	<!-- <Bind eqp="Explosives" to="SpecialForces"/>	-->
+
+<!-- bind all armor to seals -->
+	<!-- <Bind eqp="Armor" to="SpecialForces"/> -->
+	<!--
+	  These would be all the individual armors we should've otherwise specified:
+		<Bind eqp="Rangers SFLCS Level III" to="SpecialForces"/>
+		<Bind eqp="CIA TacVest Level III" to="SpecialForces"/>
+		<Bind eqp="Rangers SFLCS Extended" to="SpecialForces"/>
+		<Bind eqp="Rangers SFLCS Level IV Sides" to="SpecialForces"/>
+		<Bind eqp="Rangers NoPlates" to="SpecialForces"/>
+		<Bind eqp="CIA Concealable LVL2" to="SpecialForces"/>
+		<Bind eqp="CIA Concealable LVL3A Limited" to="SpecialForces"/>
+		<Bind eqp="CIA Concealable LVL3A" to="SpecialForces"/>
+		<Bind eqp="Rangers Jumpable" to="SpecialForces"/>
+		<Bind eqp="Rangers Jumpable Swimmer" to="SpecialForces"/>
+		<Bind eqp="NWS Vest Level III" to="SpecialForces"/>
+		<Bind eqp="NWS Vest Extended" to="SpecialForces"/>
+		<Bind eqp="NWS Vest Level IV Front" to="SpecialForces"/>
+		
+	  Shields are also defined as Armor, so they'll be included automatically, though they might not work for SpecialForces due to the base model they use, didn't test
+		<Bind eqp="NWS Shield Lvl III" to="SpecialForces"/>
+		<Bind eqp="NWS Shield Lvl IV" to="SpecialForces"/>
+	-->
+
+
+<!-- various support slot equipment -->
+	<Bind to="cag1">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag2">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag3">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag4">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>	
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag5">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>	
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag6">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag7">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>	
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="cag8">
+		<eqp name="Breaching Charge"/>
+		<eqp name="Dynamic Hammer"/>
+		<eqp name="Breacher Shotgun"/>
+		<eqp name="Slap Charge"/>
+		<eqp name="Slap Charge Kit"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="AT4 Rocket Launcher"/>
+		<eqp name="Smoke Grenade"/>
+		<eqp name="Smoke Grenade Kit"/>
+		<eqp name="Frag Grenade"/>
+		<eqp name="Frag Grenade Kit"/>
+		<eqp name="Flashbang"/>
+		<eqp name="Flashbang Kit"/>
+		<eqp name="Stinger"/>
+		<eqp name="NVG_02"/>
+
+		
+	</Bind>
+	
+	<Bind to="isa1">
+		<eqp name="Lockpick Machine"/>
+		<eqp name="TEC Torch"/>	
+	        <eqp name="Spy Camera"/>	
+		<eqp name="NVG_02"/>
+		<eqp name="Poncho"/>
+
+		
+	</Bind>
+	<Bind to="isa2">
+		<eqp name="Lockpick Machine"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="NVG_02"/>
+		<eqp name="Poncho"/>
+
+		
+	</Bind>
+	<Bind to="isa3">
+		<eqp name="Lockpick Machine"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="Spy Camera"/>
+		<eqp name="NVG_02"/>
+		<eqp name="Poncho"/>
+
+		
+	</Bind>
+	<Bind to="isa4">
+		<eqp name="Lockpick Machine"/>
+		<eqp name="TEC Torch"/>
+		<eqp name="Spy Camera"/>
+		<eqp name="NVG_02"/>
+		<eqp name="Poncho"/>
+
+		
+	</Bind>
+	
+	<!-- <Bind eqp="Breaching Charge" to="SpecialForces"/>
+	<Bind eqp="Lockpick Machine" to="SpecialForces"/>
+	<Bind eqp="Dynamic Hammer" to="SpecialForces"/>
+	<Bind eqp="Spy Camera" to="SpecialForces"/>
+	<Bind eqp="AT4 Rocket Launcher" to="SpecialForces"/>
+	
+	<Bind eqp="RPG 26 CIA BOps" to="SwatMilitia"/>
+	
+	<Bind eqp="Poncho" to="SpecialForces"/>
+	<Bind eqp="Breacher Shotgun" to="SpecialForces"/>
+	<Bind eqp="Slap Charge Kit" to="SpecialForces"/>
+	<Bind eqp="TEC Torch" to="SpecialForces"/> -->
+	
+<!-- now this is a big one: we're going to bind ALL firearms in the game to SpecialForces 
+	Ideally you only want some of them added, like all Rangers weapons or CIA weapons. 
+	There is no quick way to do that, you will need to go through all firearm xml files and add them here one by one, like:
+	<Bind to="SpecialForces">
+		<eqp name="MP5A"/>
+		<eqp name="MP5SD"/>
+		<eqp name="M16A4"/>
+		<eqp name="M9 Pistol"/>
+		
+		... and keep doing this for all firearms you want to show up there
+	</Bind>
+	
+	The firearms files are in data/equipment/ as follows:
+		firearms_rifles.xml, firearms_pistols.xml, firearms_cia.xml, firearms_pistols_cia.xml, firearms_nwswat.xml
+-->
+	<!-- Assault Rifle -->
+	<Bind eqp="MP7 CIA BOps">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+	</Bind>
+	
+	<Bind eqp="MP7Sup CIA BOps">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+	</Bind>
+	
+	<Bind eqp="delta_iov_hk416d">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+
+		<to name="556FMJM855_416D10"/>
+		<to name="556FMJMk318_416D10"/>
+		<to name="556FMJM855A1_416D10"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+	
+	
+	<Firearm name="delta_iov_hk416d" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
+			tooltip="HK 416 D10RS"
+			description="Piston operated AR-15 style rifle developed by Delta Force and Heckler & Koch in the early to mid 2000s. The HK416 has seen widespread use worldwide, and been JSOC's go to rifle for nearly two decades."
+			img="data/models/weapons/hk416d10i_ui.tga"
+
+			animationSet="rifle"
+		>
+	<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-1"/>
+		<RenderObject3D model="data/models/weapons/hk416d10i.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/hk416d10i.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_ctrpmag.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_peq15vg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_mwhg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/hk416d10i_mwhg.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1500"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="325"
+			guardTime="160"
+			
+			accuracyStart="200"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_hk416d_sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_RapidFireEmergency" rangeMeters="1.5"/>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<Bind eqp="delta_iov_hk416d_sup">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+
+		<to name="556FMJM855_416D10Sup"/>
+		<to name="556FMJM855A1_416D10Sup"/>
+		<to name="556FMJMk318_416D10Sup"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+
+
+	<Firearm name="delta_iov_hk416d_sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="2"
+			tooltip="HK 416 D10RS SD"
+			description="Piston operated AR-15 style rifle developed by Delta Force and Heckler & Koch in the early to mid 2000s. The HK416 has seen widespread use worldwide, and been JSOC's go to rifle for nearly two decades."
+			img="data/models/weapons/hk416d10i_sup_ui.tga"
+
+			animationSet="rifle"
+		>
+	<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
+		<RenderObject3D model="data/models/weapons/hk416d10i.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/hk416d10i.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_ctrpmag.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_peq15vg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_mwhg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/hk416d10i_mwhg.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_socom556rc2.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_socom556rc2.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1500"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="355"
+			guardTime="190"
+			
+			accuracyStart="200"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_hk416d"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_RapidFireEmergency" rangeMeters="1.5"/>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+	<Bind eqp="delta_iov_hk416d_CAG">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+
+		<to name="556FMJM855_416D10"/>
+		<to name="556FMJMk318_416D10"/>
+		<to name="556FMJM855A1_416D10"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+	
+	
+	<Firearm name="delta_iov_hk416d_CAG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="6"
+			tooltip="HK 416 D10RS Tan anodized"
+			description="Piston operated AR-15 style rifle developed by Delta Force and Heckler & Koch in the early to mid 2000s. The HK416 has seen widespread use worldwide, and been JSOC's go to rifle for nearly two decades."
+			img="data/models/weapons/hk416d10i_ui.tga"
+
+			animationSet="rifle"
+		>
+	<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-1"/>
+		<RenderObject3D model="data/models/weapons/hk416d10i.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/hk416d10i_CAG.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_ctrpmag.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_peq15vg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_mwhg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/hk416d10i_mwhg_CAG.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1500"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="325"
+			guardTime="160"
+			
+			accuracyStart="200"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_hk416d_CAG_sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_RapidFireEmergency" rangeMeters="1.5"/>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<Bind eqp="delta_iov_hk416d_CAG_sup">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+
+		<to name="556FMJM855_416D10Sup"/>
+		<to name="556FMJM855A1_416D10Sup"/>
+		<to name="556FMJMk318_416D10Sup"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+
+
+	<Firearm name="delta_iov_hk416d_CAG_sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="2"
+			tooltip="HK 416 D10RS SD Tan anodized"
+			description="Piston operated AR-15 style rifle developed by Delta Force and Heckler & Koch in the early to mid 2000s. The HK416 has seen widespread use worldwide, and been JSOC's go to rifle for nearly two decades."
+			img="data/models/weapons/hk416d10i_sup_ui.tga"
+
+			animationSet="rifle"
+		>
+	<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
+		<RenderObject3D model="data/models/weapons/hk416d10i.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/hk416d10i_CAG.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_ctrpmag.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_peq15vg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/hk416d10i_mwhg.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/hk416d10i_mwhg_CAG.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_socom556rc2.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_socom556rc2.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1500"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="355"
+			guardTime="190"
+			
+			accuracyStart="200"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_hk416d_CAG"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+            <AttackType name="Delta_RapidFireEmergency" rangeMeters="1.5"/>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+		
+<Bind eqp="delta_iov_M4_RECCE">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556OTMMk262_RECCE"/>
+
+		<to name="LPVO_6X"/>
+		<to name="LPVO_8X"/>
+		<to name="LROMK4_3_10X"/>
+		<to name="LROMK6_3_18X"/>
+		<to name="LROPM_5_25X"/>
+	</Bind>
+	<Firearm name="delta_iov_M4_RECCE" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="4"
+			tooltip="AR-15 RECCE Rifle"
+			description="Civilian style AR-15 RECCE/Marksman rifle built in-house by the units armorer. 
+It comes with a single stage trigger, heavy 14,5 inch barrel, and Geissele MK16 free-float M-LOK handguard."
+			img="data/models/weapons/RECCE_AR15.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-1"/>
+		<RenderObject3D model="data/models/weapons/RECCE_AR15.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/RECCE_AR15.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_handguard.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_handguard_black.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_ctrmagfh.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh_black.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_mubsrial.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_mubsrial.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_peq15vg.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="2500"
+			reloadEmptyTime="3500"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="350"
+			guardTime="250"
+			
+			accuracyStart="350"
+			accuracyEnd="350"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+
+			suppressionScale="1.15"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_M4_RECCE_Sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="20.0"
+			ai_rangeMax="50.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="m4_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+	<Bind eqp="delta_iov_M4_RECCE_Sup">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556OTMMk262_RECCE_Sup"/>
+
+		<to name="LPVO_6X"/>
+		<to name="LPVO_8X"/>
+		<to name="LROMK4_3_10X"/>
+		<to name="LROMK6_3_18X"/>
+		<to name="LROPM_5_25X"/>
+	</Bind>
+	<Firearm name="delta_iov_M4_RECCE_Sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="2"
+			tooltip="AR-15 RECCE Rifle SD"
+			description="Civilian style AR-15 RECCE/Marksman rifle built in-house by the units armorer. 
+It comes with a single stage trigger, heavy 14,5 inch barrel, and Geissele MK16 free-float M-LOK handguard."
+			img="data/models/weapons/RECCE_AR15_sup.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-4" turnSpeedModifierPercent="-2"/>
+		<RenderObject3D model="data/models/weapons/RECCE_AR15_sup.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/RECCE_AR15.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_handguard.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_handguard_black.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_ctrmagfh.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_ctrmagfh_black.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_mubsrial.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_mubsrial.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/m4ugri_peq15vg.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_socom556rc2.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_socom556rc2.dds"/>
+		
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="3000"
+			reloadEmptyTime="4000"
+			changeInTime="500"
+			changeOutTime="600"
+			readyTime="350"
+			guardTime="300"
+			
+			accuracyStart="350"
+			accuracyEnd="350"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+
+			suppressionScale="1.1"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_M4_RECCE"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="20.0"
+			ai_rangeMax="50.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_05" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_06" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_07" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_08" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<Bind eqp="delta_iov_MCX_LVAW">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="300BLKSUB_MCX"/>
+		<to name="300BLKSUP_MCX"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="SpecterDR"/>
+	</Bind>
+	<Firearm name="delta_iov_MCX_LVAW" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="6"
+			tooltip="@firearm_mcxlvaw_iname"
+			description="Based on SIGs SURG program condender, initially only the .300 BLK silencer upper was procured for covert operations, later the complete MCX variant was procured directly. While initially adopted by Delta Force, it later found its place among other units."
+			img="data/models/weapons/mcx_lvaw_iovui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
+		<RenderObject3D model="data/models/weapons/mcx_lvaw_iov.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mcx_lvaw_iov.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/mcx_lvaw_acces.khm" attachSlot="underbarrel" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/mcx_lvaw_acces.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="40"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1200"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="220"
+			guardTime="125"
+			
+			accuracyStart="200"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_300BLK_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds> <!-- max 4 variants for each action -->
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+<!-- IOV SIG MCX -->
+
+	<Bind eqp="delta_iov_MCX_Virtus">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556FMJM855A1_MCX"/>
+		<to name="556FMJMk318_MCX"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+	<Firearm name="delta_iov_MCX_Virtus" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="6"
+			tooltip="@firearm_mcxvirtus_name"
+			description="Recently Delta Force has adopted modest quantities of the new, SIG MCX Virtus. It's affixed an 11.5 inch barrel and gas-piston operating system. Its bolt carrier design allows a collapsable stock as there's no buffer tube in the way."
+			img="data/models/weapons/mcx_virtus_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="-1"/>
+		<RenderObject3D model="data/models/weapons/mcx_virtus.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mcx_virtus.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/mcx_virtus_mubs.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_mubsrial.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/mcx_virtus_grip.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="1200"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="300"
+			guardTime="150"
+
+			accuracyStart="200"
+			accuracyEnd="160"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+
+			suppressionScale="1.15"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_MCX_Virtus_Sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+	<Bind eqp="delta_iov_MCX_Virtus_Sup">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556FMJM855A1_MCXSup"/>
+		<to name="556FMJMk318_MCXSup"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="delta_iov_Aimpoint_T1"/>
+		<to name="delta_iov_EoTechXPS2Tan"/>
+		<to name="delta_iov_EoTech3xMAGtan"/>
+		<to name="M150RCO"/>
+		<to name="delta_iov_M150RCO_RMR"/>
+		<to name="SpecterDR"/>
+	</Bind>
+	<Firearm name="delta_iov_MCX_Virtus_Sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="2"
+			tooltip="@firearm_mcxvirtussup_name"
+			description="Recently Delta Force has adopted modest quantities of the new, SIG MCX Virtus. It's affixed an 11.5 inch barrel and gas-piston operating system. Its bolt carrier design allows a collapsable stock as there's no buffer tube in the way."
+			img="data/models/weapons/mcx_virtussup_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
+		<RenderObject3D model="data/models/weapons/mcx_virtus.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mcx_virtus.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/mcx_virtus_mubs.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/m4ugri_mubsrial.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/mcx_virtus_grip.khm" attachSlot="AccesMount" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/anpeq15lightvgrip.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_socom556mon.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_socom556mon.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="1"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="1200"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="335"
+			guardTime="170"
+
+			accuracyStart="200"
+			accuracyEnd="180"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+
+			suppressionScale="1.05"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m4_mag"
+			suppressedSwitch="delta_iov_MCX_Virtus"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Delta_close1" rangeMeters="3"/>
+			<AttackType name="Delta_close1" rangeMeters="6"/>
+			<AttackType name="Delta_close2" rangeMeters="9"/>
+			<AttackType name="Delta_close2" rangeMeters="12"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="14"/>
+			<AttackType name="Delta_med1" inCoverOverride="Delta_med1_mounted" rangeMeters="19"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="24"/>
+			<AttackType name="Delta_med2" inCoverOverride="Delta_med2_mounted" rangeMeters="30"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="40"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="50"/>
+			<AttackType name="Delta_long" inCoverOverride="Delta_long_mounted" rangeMeters="150"/>
+			<AttackType name="Rangers_DMRAimedFireXX" inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_05" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_06" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_07" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_08" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk18sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<!--------------------------------------------------------------------- LMG -------------------------------------------------------->
+	<Bind eqp="delta_iov_Mk46_MOD1">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556FMJM855_MK46"/>
+		<to name="556FMJM855A1_MK46"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="iov_EoTechXPS2"/>
+		<to name="iov_EoTech3xMAGblack"/>
+		<to name="iov_ACOG_TA11"/>
+		<to name="SpecterDR"/>
+		<to name="MGOM145"/>
+		<to name="MGO240"/>
+	</Bind>
+	<Firearm name="delta_iov_Mk46_MOD1" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="3"
+			tooltip="@firearm_mk46mod1_name"
+			description="The Mk.46 MOD 1 is a variant of the M249 light machine gun. Created in response to the needs of special operations units. Its belt fed 100-round 5.56x45mm ammo pouch and heavy barrel allow for continuous suppressive fire."
+			img="data/models/weapons/mk46mod1_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-9" turnSpeedModifierPercent="-3"/>
+		<RenderObject3D model="data/models/weapons/mk46mod1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mk46mod1.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="100"
+			closedBolt="0"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="4000"
+			reloadEmptyTime="4000"
+			changeInTime="700"
+			changeOutTime="700"
+			readyTime="450"
+			guardTime="200"
+
+			accuracyStart="110"
+			accuracyEnd="70"
+			accuracyStartDist="0"
+			accuracyEndDist="50"
+
+			suppressionScale="1.25"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_fullauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m249_mag"
+			suppressedSwitch="delta_iov_Mk46_MOD1Sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="40.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_LMGStrafeShort" inCoverOverride="Rangers_LMGStrafeShortMounted" rangeMeters="3"/>
+			<AttackType name="Rangers_LMGStrafe" inCoverOverride="Rangers_LMGStrafeMounted" rangeMeters="7"/>
+			<AttackType name="Rangers_LMGStrafeMed" inCoverOverride="iov_Rangers_LMGStrafeMedMountedXX" rangeMeters="15"/>
+			<AttackType name="Rangers_LMGStrafeLong" inCoverOverride="iov_Rangers_LMGStrafeLongMountedXX" rangeMeters="40"/>
+			<AttackType name="Rangers_LMGStrafeLongXX" inCoverOverride="iov_Rangers_LMGStrafeLongXXMountedXX" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_LMG_01" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_02" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_03" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk46mod1_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+	<Bind eqp="delta_iov_Mk46_MOD1Sup">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="556FMJM855_MK46Sup"/>
+		<to name="556FMJM855A1_MK46Sup"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="iov_EoTechXPS2"/>
+		<to name="iov_EoTech3xMAGblack"/>
+		<to name="iov_ACOG_TA11"/>
+		<to name="SpecterDR"/>
+		<to name="MGOM145"/>
+		<to name="MGO240"/>
+	</Bind>
+	<Firearm name="delta_iov_Mk46_MOD1Sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="2"
+			tooltip="@firearm_mk46mod1sup_name"
+			description="The Mk.46 MOD 1 is a variant of the M249 light machine gun. Created in response to the needs of special operations units. Its belt fed 100-round 5.56x45mm ammo pouch and heavy barrel allow for continuous suppressive fire."
+			img="data/models/weapons/mk46mod1sup_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-10" turnSpeedModifierPercent="-3"/>
+		<RenderObject3D model="data/models/weapons/mk46mod1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mk46mod1.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_01.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_01tan.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="100"
+			closedBolt="0"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="4600"
+			reloadEmptyTime="4600"
+			changeInTime="800"
+			changeOutTime="800"
+			readyTime="500"
+			guardTime="230"
+
+			accuracyStart="110"
+			accuracyEnd="70"
+			accuracyStartDist="0"
+			accuracyEndDist="50"
+
+			suppressionScale="1.15"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_556x45_name"
+			operationInfoText="@firearm_operation_fullauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m249_mag"
+			suppressedSwitch="delta_iov_Mk46_MOD1"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="40.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_LMGStrafeShort" inCoverOverride="Rangers_LMGStrafeShortMounted" rangeMeters="3"/>
+			<AttackType name="Rangers_LMGStrafe" inCoverOverride="Rangers_LMGStrafeMounted" rangeMeters="7"/>
+			<AttackType name="Rangers_LMGStrafeMed" inCoverOverride="iov_Rangers_LMGStrafeMedMountedXX" rangeMeters="15"/>
+			<AttackType name="Rangers_LMGStrafeLong" inCoverOverride="iov_Rangers_LMGStrafeLongMountedXX" rangeMeters="40"/>
+			<AttackType name="Rangers_LMGStrafeLongXX" inCoverOverride="iov_Rangers_LMGStrafeLongXXMountedXX" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_05" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_06" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_07" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_08" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="556sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<Bind eqp="delta_iov_MK48_MOD1">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="762FMJM80_MK48MOD1"/>
+		<to name="762FMJM80A1_MK48MOD1"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="iov_EoTechXPS2"/>
+		<to name="iov_EoTech3xMAGblack"/>
+		<to name="iov_ACOG_TA11"/>
+		<to name="SpecterDR"/>
+		<to name="MGOM145"/>
+		<to name="MGO240"/>
+	</Bind>
+	<Firearm name="delta_iov_MK48_MOD1" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="8"
+			tooltip="@firearm_mk48mod1_name"
+			description="The Mk46s bigger badder brother Mk48 is in practice an M240 in a smaller package, packing the same 7.62x51mm stopping power."
+			img="data/models/weapons/mk48mod1_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-10" turnSpeedModifierPercent="-4"/>
+		<RenderObject3D model="data/models/weapons/mk48mod1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mk48mod1.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="50"
+			closedBolt="0"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="4050"
+			reloadEmptyTime="4600"
+			changeInTime="800"
+			changeOutTime="700"
+			readyTime="500"
+			guardTime="230"
+
+			accuracyStart="120"
+			accuracyEnd="70"
+			accuracyStartDist="0"
+			accuracyEndDist="60"
+
+			suppressionScale="1.3"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_762x51_name"
+			operationInfoText="@firearm_operation_fullauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m240l_mag"
+			suppressedSwitch="delta_iov_MK48_MOD1Sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="14.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_LMGStrafeShort" inCoverOverride="Rangers_LMGStrafeShortMounted" rangeMeters="3"/>
+			<AttackType name="Rangers_LMGStrafe" inCoverOverride="Rangers_LMGStrafeMounted" rangeMeters="7"/>
+			<AttackType name="Rangers_LMGStrafeMed" inCoverOverride="iov_Rangers_LMGStrafeMedMountedXX" rangeMeters="25"/>
+			<AttackType name="Rangers_LMGStrafeLong" inCoverOverride="iov_Rangers_LMGStrafeLongMountedXX" rangeMeters="60"/>
+			<AttackType name="Rangers_LMGStrafeLongXX" inCoverOverride="iov_Rangers_LMGStrafeLongXXMountedXX" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_LMG_01" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_02" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_03" />
+			<Flare particles="FX_MUZZLE_FLASH_LMG_04" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk48_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+
+	<Bind eqp="delta_iov_MK48_MOD1Sup">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+
+		<to name="762FMJM80_MK48MOD1Sup"/>
+		<to name="762FMJM80A1_MK48MOD1Sup"/>
+
+		<to name="IronSights"/>
+		<to name="M68CCO"/>
+		<to name="iov_EoTechXPS2"/>
+		<to name="iov_EoTech3xMAGblack"/>
+		<to name="iov_ACOG_TA11"/>
+		<to name="SpecterDR"/>
+		<to name="MGOM145"/>
+		<to name="MGO240"/>
+	</Bind>
+	
+	<Firearm name="delta_iov_MK48_MOD1Sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="3"
+			tooltip="@firearm_mk48mod1sup_name"
+			description="The Mk46s bigger badder brother Mk48 is in practice an M240 in a smaller package, packing the same 7.62x51mm stopping power."
+			img="data/models/weapons/mk48mod1sup_ui.tga"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-11" turnSpeedModifierPercent="-5"/>
+		<RenderObject3D model="data/models/weapons/mk48mod1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mk48mod1.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_762l.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_01a.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="50"
+			closedBolt="0"
+			suppressArea="1"
+
+			cyclicReload="0"
+			reloadTime="4350"
+			reloadEmptyTime="5000"
+			changeInTime="900"
+			changeOutTime="800"
+			readyTime="550"
+			guardTime="250"
+
+			accuracyStart="120"
+			accuracyEnd="70"
+			accuracyStartDist="0"
+			accuracyEndDist="60"
+
+			suppressionScale="1.25"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_762x51_name"
+			operationInfoText="@firearm_operation_fullauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="m240l_mag"
+			suppressedSwitch="delta_iov_MK48_MOD1"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="14.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="true"
+			hasLaser="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_LMGStrafeShort" inCoverOverride="Rangers_LMGStrafeShortMounted" rangeMeters="3"/>
+			<AttackType name="Rangers_LMGStrafe" inCoverOverride="Rangers_LMGStrafeMounted" rangeMeters="7"/>
+			<AttackType name="Rangers_LMGStrafeMed" inCoverOverride="iov_Rangers_LMGStrafeMedMountedXX" rangeMeters="25"/>
+			<AttackType name="Rangers_LMGStrafeLong" inCoverOverride="iov_Rangers_LMGStrafeLongMountedXX" rangeMeters="60"/>
+			<AttackType name="Rangers_LMGStrafeLongXX" inCoverOverride="iov_Rangers_LMGStrafeLongXXMountedXX" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_LMG">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_05" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_06" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_07" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_08" />
+		</MuzzleFlash>
+
+		<Sounds>
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="mk48mod1_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	<!------------------------------------------------------------ DMR ------------------------------------------------------->
+	<Bind eqp="M110A1">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		
+	</Bind>
+	
+	<Firearm name="M110A1" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="6"
+			tooltip="@firearm_m110a1_name"
+			description="@firearm_m110a1_desc"
+			img="data/models/weapons/m110a1_ui.dds"
+
+			animationSet="rifle"
+		>
+
+		<MobilityModifiers moveSpeedModifierPercent="-8" turnSpeedModifierPercent="-3"/>
+		<RenderObject3D model="data/models/weapons/m110a1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/m110a1.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="20"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="3200"
+			reloadEmptyTime="3700"
+			changeInTime="1000"
+			changeOutTime="900"
+			readyTime="590"
+			guardTime="200"
+
+			accuracyStart="200"
+			accuracyEnd="10"
+			accuracyStartDist="0"
+			accuracyEndDist="50"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_762x51_name"
+			operationInfoText="@firearm_operation_semiauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="mk17_mag"
+			suppressedSwitch="M110A1Sup"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="14.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_DMRRapidFire" rangeMeters="5"/>
+			<AttackType name="Rangers_DMRRapidFireMed"  inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="12"/>
+			<AttackType name="Rangers_DMRAimedFire"  inCoverOverride="Rangers_DMRAimedFireMounted" rangeMeters="48"/>
+			<AttackType name="Rangers_DMRAimedFireXX"  inCoverOverride="Rangers_DMRAimedFireXXMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_01" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_02" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_03" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_04" />
+		</MuzzleFlash>
+
+		<Sounds> <!-- max 4 variants for each action -->
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="m110csass_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<Bind eqp="M110A1Sup">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Firearm name="M110A1Sup" inventoryBinding="PrimaryWeaponMuzzle" category="rifle" unlockCost="3"
+			tooltip="@firearm_m110a1Sup_name"
+			description="@firearm_m110a1Sup_desc"
+			img="data/models/weapons/m110a1_ui.dds"
+
+			animationSet="rifle"
+		>
+
+		<MobilityModifiers moveSpeedModifierPercent="-9" turnSpeedModifierPercent="-5"/>
+		<RenderObject3D model="data/models/weapons/m110a1.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/m110a1.dds"/>
+		<RenderObject3D model="data/models/weapons/attachments/silencer_01.khm" attachSlot="silencer_socket" skipGOSSAO="true" diffuseTex="data/models/weapons/attachments/silencer_01b.dds"/>
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="20"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="3300"
+			reloadEmptyTime="3750"
+			changeInTime="1000"
+			changeOutTime="900"
+			readyTime="590"
+			guardTime="200"
+
+			accuracyStart="200"
+			accuracyEnd="10"
+			accuracyStartDist="0"
+			accuracyEndDist="50"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_762x51_name"
+			operationInfoText="@firearm_operation_semiauto_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="mk17_mag"
+			suppressedSwitch="M110A1"
+			suppressedImg="data/models/weapons/attachments/basic_silencer_ui.dds"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="14.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="true"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_DMRRapidFire" rangeMeters="5"/>
+			<AttackType name="Rangers_DMRRapidFireMed"  inCoverOverride="Rangers_DMRRapidFireMedMounted" rangeMeters="14"/>
+			<AttackType name="Rangers_DMRAimedFire"  inCoverOverride="Rangers_DMRAimedFireMounted" rangeMeters="48"/>
+			<AttackType name="Rangers_DMRAimedFireXX"  inCoverOverride="Rangers_DMRAimedFireXXMounted" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_05" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_06" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_07" />
+			<Flare particles="FX_MUZZLE_FLASH_RIFLE_08" />
+		</MuzzleFlash>
+
+		<Sounds> <!-- max 4 variants for each action -->
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="rifle_reld"/>
+			<ReloadEmpty name="rifle_reldempt"/>
+			<Fire name="762sup_fire"/>
+			<ShellDrop name="rifle_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
+	<!-- Pistols -->
+	<Bind eqp="M9 Pistol">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="M9Sup Pistol">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="G19X Pistol">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="G2240 Pistol">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="G19 Pistol CIA BOps">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="G19Sup Pistol CIA BOps">	
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Bind eqp="G19Custom Pistol CIA BOps">	
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	
+	<Bind eqp="1911 Pistol">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+
+	<Bind eqp="AKS 74U CIA BOps">
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+
+	<Bind eqp="AKS 74USup CIA BOps">
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+
+	<Bind eqp="MG338">
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+
+	<!-- Grenade Launcher Aguardar Tier1-->
+	<!-- <Bind eqp="MGL HE">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Bind eqp="MGL CS">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind> -->
+	
+
+</Equipment>

@@ -1,0 +1,1228 @@
+<Equipment>
+
+	<Bind eqp="jpcIV_jsoc_fleecetan+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_fleecetan+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece RG/MC + JPC MC IV"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/jsoc_fleecerg_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<!------------------------------------------------MC Rolled-------------------->
+	
+	<Bind eqp="jpcIV_isa_mc+mc">
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Armor name="jpcIV_isa_mc+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC + JPC"
+			description="Plate carrier with front and back Level III plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection.
+Crye Precision G3 combat uniform for operating alongside Direct Action units"
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/isa_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_delta_mc+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="jpcIV_delta_mc+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/delta_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<Bind eqp="jpcIV_devgru_mc+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_devgru_mc+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/devgru_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_mctexas">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mctexas" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Texas + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	<!------------------------------------------------MC Cut-------------------->
+	
+	<Bind eqp="jpcIV_jsoc_mccut+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mccut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Cut + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/jsoc_g3_mccut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<!------------------------------------------------MC tshirt-------------------->
+	
+	<Bind eqp="jpcIV_jsoc_tshirt+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_tshirt+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt 1 MC + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/tshirt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_tshirt+mc2">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_tshirt+mc2" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt 2 MC + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/mcshirt.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	<!------------------------------------------------aor1-------------------------------------------------------------------------->
+	<!------------------------------------------------Fleece-------------------------------------------------------------------------->
+	
+	<Bind eqp="jpcIV_devgru_fleecerg+aor1">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_devgru_fleecerg+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece Tan/AOR1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/devgru_fleecetan_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_delta_fleecerg+aor1">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="jpcIV_delta_fleecerg+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece RG/AOR1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/delta_fleecerg_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	<!----------------------------------------------Rolled---------------------------------->
+	
+	<Bind eqp="jpcIV_devgru_aor1+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_devgru_aor1+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/devgru_g3_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_delta_aor1+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="jpcIV_delta_aor1+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/delta_g3_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_isa_aor1+mc">
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Armor name="jpcIV_isa_aor1+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 + JPC"
+			description="Plate carrier with front and back Level III plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection.
+Crye Precision G3 combat uniform for operating alongside Direct Action units"
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/delta_g3_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+		</Params>
+	</Armor>
+	
+	<!----------------------------------------------cut---------------------------------->
+	<Bind eqp="jpcIV_devgru_aor1cut+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_devgru_aor1cut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 Cut + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/devgru_g3_aor1cut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_delta_aor1cut+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="jpcIV_delta_aor1cut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 Cut + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/delta_g3_aor1cut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_tshirt+aor1">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_tshirt+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt AOR1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/tshirt_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	<!------------------------------------------------MCA-------------------------------------------------------------------------->
+	
+	<Bind eqp="jpcIV_jsoc_mca+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mca+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MCA + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/jsoc_g3_mca.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_mct+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mct+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Tropic + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mct.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_mcb+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mcb+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Black + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mcb.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_mcalp+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_mcalp+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Alpine + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/dlc_fleece_mcalpine.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+        <!---------------------------------------------------Plates with backpack ------------------------------------------------->
+ 
+	<!------------------------------------------------Fleece-------------------------------------------------------------------------->
+	<Bind eqp="pcIV_jsoc_fleecetan+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_fleecetan+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece RG/MC + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/jsoc_fleecerg_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<!------------------------------------------------MC Rolled-------------------->
+	
+	<Bind eqp="pcIV_delta_mc+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="pcIV_delta_mc+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/delta_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<Bind eqp="pcIV_devgru_mc+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_devgru_mc+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/devgru_g3_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_jsoc_mctexas">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mctexas" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Texas + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mct.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	<!------------------------------------------------MC Cut-------------------->
+	
+	<Bind eqp="pcIV_jsoc_mccut+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mccut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Cut + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/jsoc_g3_mccut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<!------------------------------------------------MC tshirt-------------------->
+	
+	<Bind eqp="pcIV_jsoc_tshirt+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_tshirt+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt 1 MC + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/tshirt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_jsoc_tshirt+mc2">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_tshirt+mc2" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt 2 MC + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/mcshirt.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	
+	<!------------------------------------------------aor1-------------------------------------------------------------------------->
+	<Bind eqp="pcIV_devgru_fleecetan+aor1">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_devgru_fleecetan+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece Tan/AOR1 + NCPC"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/devgru_fleecetan_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/pc_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_aor1.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_delta_fleecerg+aor1">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="pcIV_delta_fleecerg+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Fleece RG/AOR1 + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/delta_fleecerg_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<Bind eqp="pcIV_devgru_aor1+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_devgru_aor1+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 + NCPC"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/devgru_g3_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/pc_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_delta_aor1+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="pcIV_delta_aor1+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/delta_g3_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	<Bind eqp="pcIV_devgru_aor1cut+mc">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_devgru_aor1cut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 Cut + NCPC"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/devgru_g3_aor1cut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/pc_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_aor1.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_delta_aor1cut+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="pcIV_delta_aor1cut+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 AOR1 Cut + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/delta_g3_aor1cut.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+
+	<Bind eqp="pcIV_devgru_tshirt+aor1">
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_devgru_tshirt+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt AOR1 + NCPC"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/tshirt_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/pc_aor1.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_delta_tshirt+aor1">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+	</Bind>
+	<Armor name="pcIV_delta_tshirt+aor1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="T-Shirt AOR1 + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/tshirt_aor1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+	
+	<!------------------------------------------------MCA-------------------------------------------------------------------------->
+	
+	<Bind eqp="pcIV_jsoc_mca+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mca+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Arid + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/jsoc_g3_mca.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_jsoc_mct+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mct+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Tropic + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mct.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_jsoc_mcb+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mcb+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Black + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/dlc_g3_mcb.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/ranger_marksman_wristmap.khm" diffuseTex="data/models/humans/attachments/ranger_marksman_wristmap.dds" />
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="pcIV_jsoc_mcalp+mc">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="pcIV_jsoc_mcalp+mc" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Alpine + AVS"
+			description="Plate carrier with front and back Level IV plates, and Level III+ side plates increasing bulk for higher protection at the cost of mobility."
+			img="data/models/equipment/armor_tacvestiv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-3"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/dlc_fleece_mcalpine.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/pc.khm" diffuseTex="data/models/humans/attachments/delta_pc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/battlebelt.khm" diffuseTex="data/models/humans/attachments/battlebelt_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_isa_mcalp">
+		<to name="isa1"/>
+		<to name="isa2"/>
+		<to name="isa3"/>
+		<to name="isa4"/>
+	</Bind>
+	<Armor name="jpcIV_isa_mcalp" inventoryBinding="Armor" unlockCost="0"
+			tooltip="G3 MC Alpine + JPC"
+			description="Plate carrier with front and back Level III plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection.
+Crye Precision G3 field uniform for operating alongside Direct Action units"
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_longsleeve.khm" diffuseTex="data/models/humans/dlc_fleece_mcalpine.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_civ1">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_civ1" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Plain Clothes 1 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/civ1.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_civ2">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_civ2" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Plain Clothes 2 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/civ2.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_civ3">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_civ3" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Plain Clothes 3 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/civ3.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="jpcIV_jsoc_civ4">
+		<to name="cag1"/>
+		<to name="cag2"/>
+		<to name="cag3"/>
+		<to name="cag4"/>
+		<to name="cag5"/>
+		<to name="cag6"/>
+		<to name="cag7"/>
+		<to name="cag8"/>
+	</Bind>
+	<Armor name="jpcIV_jsoc_civ4" inventoryBinding="Armor" unlockCost="0"
+			tooltip="Plain Clothes 4 + JPC"
+			description="Plate carrier with front and back Level IV plates, but no side plates allowing even lighter weight, and reduced bulk for even higher mobility at the cost of side protection."
+			img="data/models/equipment/armor_jump_swimmeriv_ui.dds"
+			img_tooltip="data/models/equipment/armor_02_ui_ttip.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		
+		<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/civ4.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/delta_jpc_mc.dds"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="6"/>
+			<ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="6"/>
+		</Params>
+	</Armor>
+	
+
+	
+</Equipment> 

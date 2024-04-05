@@ -1,0 +1,290 @@
+<Equipment>
+		
+<!-- TierOneOverhaul Firearms -->
+	<Bind to="cag1">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		<eqp name="Strike Marker"/>
+	</Bind>
+	
+	<Bind to="cag2">
+
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+	
+	<Bind to="cag3">
+
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+	<Bind to="cag4">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+	<Bind to="cag5">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+	<Bind to="cag6">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+	<Bind to="cag7">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+
+	
+	<Bind to="cag8">
+		<eqp name="NSR"/>
+		<eqp name="NSR SD"/>
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="MK11 DEV"/>
+		<eqp name="MK11 SD DEV"/>
+		<eqp name="MK12"/>
+		<eqp name="MK12 SD"/>
+		<eqp name="MK13"/>
+		<eqp name="MJOLNIR"/>
+		<eqp name="M320 HE"/>
+		<eqp name="M320 HEDP"/>
+		<eqp name="M320 SMK"/>
+		<eqp name="M320 CS"/>
+		<eqp name="MGL HE"/>
+		<eqp name="MGL CS"/>
+		<eqp name="MGL FB"/>
+		<eqp name="MGL SMK"/>
+		<eqp name="CS Gas Grenade"/>
+		<eqp name="CS Gas Grenade Kit"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+		
+	</Bind>
+	
+		<Bind to="isa1">
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="VP9 Pistol CIA BOps"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+	</Bind>
+	
+		<Bind to="isa2">
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="VP9 Pistol CIA BOps"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+	</Bind>
+	
+		<Bind to="isa3">
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="VP9 Pistol CIA BOps"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+	</Bind>
+	
+		<Bind to="isa4">
+		<eqp name="MP7A2 DEV"/>
+		<eqp name="MP7A2 DEV SD"/>
+		<eqp name="MCX RATTLER"/>
+		<eqp name="MCX RATTLER SD"/>
+		<eqp name="VP9 Pistol CIA BOps"/>
+		<eqp name="Decoy Grenade HI"/>
+		<eqp name="Decoy Grenade LO"/>
+	</Bind>
+	
+	
+
+<!-- TierOneOverhaul Firearms -->
+<!--<eqp name="MP7A1"/>
+	<eqp name="MP7A1SD"/>
+	<eqp name="Vector9"/>
+	<eqp name="Vector9SD"/>
+	<eqp name="P90"/>
+	<eqp name="P90 SD"/>
+	<eqp name="NSR"/>
+	<eqp name="NSR SD"/>
+	<eqp name="HK 416"/>
+	<eqp name="HK 416 SD"/>
+	<eqp name="MCX"/>
+	<eqp name="MCX SPEAR"/>
+	<eqp name="MCX SPEAR SD"/>
+	<eqp name="AS VAL"/>
+	<eqp name="AK 105"/>
+	<eqp name="AK 105 SD"/>
+	<eqp name="G3KA4"/>
+	<eqp name="G3KA4 SD"/>
+	<eqp name="M16A4 SD"/>???
+	<eqp name="M16A4Marksman SD"/>
+	<eqp name="MJOLNIR"/> -->
+	
+<!-- TierOneOverhaul Equipments	-->
+	
+
+	
+</Equipment>

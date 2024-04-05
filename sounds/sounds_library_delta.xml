@@ -1,0 +1,403 @@
+<!--
+Channels (affected by their respective volume category)
+"music"
+"game"
+"ambiental"
+
+If preload="true", the sound will be loaded the first time a map is loaded, the others are loaded only when needed.
+-->
+<Sounds>
+
+<!-- IOV -->
+
+	<!-- MK18Sup -->
+    <Sound ID="mk18sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mk18sd_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk18sd_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk18sd_fire_03.wav"/>	
+	</Sound>
+
+	<!-- HK416D -->
+    <Sound ID="hk416d10_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/hk416d10_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk416d10_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk416d10_fire_03.wav"/>	
+	</Sound>
+    <Sound ID="hk416d10sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/hk416d10sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk416d10sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk416d10sup_fire_03.wav"/>	
+	</Sound>
+	
+	<!-- RECCE -->
+    <Sound ID="recce_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/recce_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/recce_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/recce_fire_03.wav"/>	
+	</Sound>
+
+	<!-- MK17CON5.56 -->
+    <Sound ID="mk17con556_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mk17c556_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk17c556_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk17c556_fire_03.wav"/>		
+	</Sound>
+
+	<!-- MK46MOD1 -->
+    <Sound ID="mk46mod1_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mk46mod1_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk46mod1_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk46mod1_fire_03.wav"/>
+	</Sound>
+
+	<!-- MK48MOD1 -->
+    <Sound ID="mk48mod1_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mk48mod1_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk48mod1_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mk48mod1_fire_03.wav"/>
+	</Sound>
+	
+	<!-- AA12 -->
+    <Sound ID="aa12_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/aa12_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/aa12_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/aa12_fire_03.wav"/>
+	</Sound>
+
+	<!-- CS/LS7K -->
+    <Sound ID="csls7k_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/csls7k_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/csls7k_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/csls7k_fire_03.wav"/>
+	</Sound>
+    <Sound ID="csls7sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/csls7sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/csls7sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/csls7sup_fire_03.wav"/>
+	</Sound>
+
+<!-- TYPE81 -->
+    <Sound ID="type81_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/type81_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/type81_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/type81_fire_03.wav"/>
+	</Sound>
+<!-- QBZ95 -->
+    <Sound ID="qbz95_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbz95_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz95_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz95_fire_03.wav"/>
+	</Sound>
+<!-- QJY88 -->
+    <Sound ID="qjy88_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qjy88_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qjy88_fire_02.wav"/>
+	</Sound>
+<!-- QBU191 -->
+    <Sound ID="qbz191car_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbz191car_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz191car_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz191car_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qbz192sbr_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbz192sbr_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz192sbr_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz192sbr_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qbz191sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbz191sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz191sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz191sup_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qbz192sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbz192sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz192sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbz192sup_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qbu191dmar_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbu191dmar_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbu191dmar_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbu191dmar_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qbu191sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qbu191sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbu191sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qbu191sup_fire_03.wav"/>
+	</Sound>
+    <Sound ID="hk53_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/hk53_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk53_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/hk53_fire_03.wav"/>
+	</Sound>
+    <Sound ID="mc51_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mc51_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mc51_fire_02.wav"/>
+	</Sound>
+    <Sound ID="uzi_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/uzi_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/uzi_fire_02.wav"/>
+	</Sound>
+    <Sound ID="microuzi_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/microuzi_fire_01.wav"/>
+	</Sound>
+
+    <Sound ID="qsz929_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qsz929_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsz929_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsz929_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qsz9258_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qsz9258_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsz9258_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsz9258_fire_03.wav"/>
+	</Sound>
+    <Sound ID="type67_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/type67_fire_01.wav"/>
+	</Sound>
+    <Sound ID="qsw06_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qsw06_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsw06_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qsw06_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qcq05_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qcq05_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qcq05_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qcq05_fire_03.wav"/>
+	</Sound>
+    <Sound ID="qcw05_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/qcw05_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/qcw05_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/qcw05_fire_03.wav"/>
+	</Sound>
+<!-- PPSH41 -->
+    <Sound ID="ppsh41_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/ppsh41_fire_01.wav"/>
+	</Sound>
+	<!-- type79smg -->
+    <Sound ID="type79smg_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/type79smg_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/type79smg_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/type79smg_fire_03.wav"/>
+	</Sound>
+	<!-- type85smg -->
+    <Sound ID="type85SDsmg_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/type85sd_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/type85sd_fire_02.wav"/>
+	</Sound>
+    <Sound ID="sti40_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/sti40_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/sti40_fire_02.wav"/>
+	</Sound>
+<!-- COLT R0635 -->
+    <Sound ID="colt635_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/colt9mm_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/colt9mm_fire_02.wav"/>
+	</Sound>
+	<!-- MP5/10 -->
+    <Sound ID="mp510_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp510_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp510_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp510_fire_03.wav"/>
+	</Sound>
+    <Sound ID="mp510sd_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp510sd_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp510sd_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp510sd_fire_03.wav"/>
+	</Sound>
+	
+    <Sound ID="mp5k_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp5k_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp5k_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp5k_fire_03.wav"/>
+	</Sound>
+    <Sound ID="mp5ksup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp5ksup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp5ksup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp5ksup_fire_03.wav"/>
+	</Sound>
+	
+    <Sound ID="hksmg2sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/hksmg2sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/hksmg2sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/hksmg2sup_fire_03.wav"/>
+	</Sound>
+	
+	
+    <Sound ID="hkcaws_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/hkcaws_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/hkcaws_fire_02.wav"/>
+	</Sound>
+<!-- MP9 -->
+    <Sound ID="mp9_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp9_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp9_fire_02.wav"/>
+	</Sound>
+    <Sound ID="mp9sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mp9sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mp9sup_fire_02.wav"/>
+	</Sound>
+	
+	<!-- vz61 -->
+    <Sound ID="vz61_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/vz61_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/vz61_fire_02.wav"/>
+	</Sound>
+	
+    <Sound ID="vz61sd_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/vs61sd_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/vs61sd_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/vs61sd_fire_03.wav"/>
+	</Sound>
+	
+	<!-- Barrett M82A1 -->
+    <Sound ID="barrett50_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/barrett50_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/barrett50_fire_02.wav"/>
+	</Sound>
+	
+	<!-- HK G11K2 -->
+    <Sound ID="g11k2_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/g11k2_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/g11k2_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/g11k2_fire_03.wav"/>
+	</Sound>
+	
+	<!-- 300 BLK -->
+    <Sound ID="mcx300iov_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mcx300_fire_01.wav"/>		
+		<Path name="data/sounds/sfx/weapons/mcx300_fire_02.wav"/>		
+		<Path name="data/sounds/sfx/weapons/mcx300_fire_03.wav"/>		
+	</Sound>
+	
+    <Sound ID="honeybadger_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/honeybadger_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/honeybadger_fire_02.wav"/>
+	</Sound>
+	
+    <Sound ID="lmg68_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/lmg68_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/lmg68_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/lmg68_fire_03.wav"/>
+	</Sound>
+    <Sound ID="lmg68sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/lmg68sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/lmg68sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/lmg68sup_fire_03.wav"/>
+	</Sound>
+	<!-- FN Minimi -->
+    <Sound ID="fn_minimi_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/fn_minimi_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/fn_minimi_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/fn_minimi_fire_03.wav"/>
+	</Sound>
+	
+    <Sound ID="m60e3_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/m60e3_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/m60e3_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/m60e3_fire_03.wav"/>
+	</Sound>
+    <Sound ID="m60e3sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/m60e3sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/m60e3sup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/m60e3sup_fire_03.wav"/>
+	</Sound>
+
+	<!-- BAR2 -->
+    <Sound ID="bar1918a2_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/bar1918a2_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/bar1918a2_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/bar1918a2_fire_03.wav"/>
+	</Sound>
+<!-- P90 -->
+    <Sound ID="fnp90_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/fnp90_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/fnp90_fire_02.wav"/>
+	</Sound>
+    <Sound ID="fnp90sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/fnp90sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/fnp90sup_fire_02.wav"/>
+	</Sound>
+<!-- MCX 300 -->
+    <Sound ID="mcxVirtus_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/mcxVirtus_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/mcxVirtus_fire_02.wav"/>
+	</Sound>
+<!-- KAC PDW -->
+    <Sound ID="KacPdw_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/KacPdw_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/KacPdw_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/KacPdw_fire_03.wav"/>
+	</Sound>
+    <Sound ID="6mmSup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/6mmSup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/6mmSup_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/6mmSup_fire_03.wav"/>
+	</Sound>
+<!-- UMP -->
+    <Sound ID="ump45_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/ump45_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/ump45_fire_02.wav"/>
+	</Sound>
+    <Sound ID="ump45sup_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/ump45sup_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/ump45sup_fire_02.wav"/>
+	</Sound>
+<!-- 9x18 -->
+    <Sound ID="stechkinaps_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/stechkinaps_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/stechkinaps_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/stechkinaps_fire_03.wav"/>
+	</Sound>
+    <Sound ID="makarovpm_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/makarovpm_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/makarovpm_fire_02.wav"/>
+	</Sound>
+    <Sound ID="bizon2_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/bizon2_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/bizon2_fire_02.wav"/>
+	</Sound>
+<!-- ultimax100 -->
+    <Sound ID="ultimax100_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/ultimax100_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/ultimax100_fire_02.wav"/>
+	</Sound>
+<!-- VP70 -->
+    <Sound ID="vp70_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/vp70_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/vp70_fire_02.wav"/>
+	</Sound>
+<!-- AUG -->
+    <Sound ID="aug_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/aug_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/aug_fire_02.wav"/>
+	</Sound>
+    <Sound ID="augsmg_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/augsmg_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/augsmg_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/augsmg_fire_03.wav"/>
+	</Sound>
+    <Sound ID="aughbar_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/aughbar_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/aughbar_fire_02.wav"/>
+	</Sound>
+
+    <Sound ID="wa2000_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/wa2000_fire_01.wav"/>
+	</Sound>
+
+    <Sound ID="deserteagle_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/deserteagle_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/deserteagle_fire_02.wav"/>
+	</Sound>
+
+    <Sound ID="galil_ace23_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/galil_ace23_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/galil_ace23_fire_02.wav"/>
+	</Sound>
+
+    <Sound ID="m3e1maaws_fire" channel="game" preload="false">
+		<Path name="data/sounds/sfx/weapons/m3e1maaws_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/m3e1maaws_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/m3e1maaws_fire_03.wav"/>
+	</Sound>
+</Sounds>

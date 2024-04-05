@@ -1,0 +1,161 @@
+<Equipment>
+	<!---------------------------------------------------Concealed IIIA armor ------------------------------------------------->
+    <Bind eqp="Delta_Jacket_Tan_Concealed4">
+        <to name="isa4"/>
+
+        </Bind>
+    <Armor name="Delta_Jacket_Tan_Concealed4" inventoryBinding="Armor" unlockCost="0"
+            tooltip="Jacket Tan + Concealed"
+           description="Concealable Level IIIA soft body armor worn with a jacket. Allows for covert operations, and offers some protection from handgun projectiles."
+            img="data/models/equipment/armor_softpanelsiiia_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+	<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/isa4.dds"/>
+        <RenderObject3D model="data/models/humans/attachments/cia_jacket.khm" diffuseTex="data/models/humans/attachments/cia_jacket.dds" windAnimated="1"/>
+        <MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="-3"/>
+        <ConcealmentModifier add="9"/>
+
+        <Params protectionInfoText="@equipment_protect3">
+            <ProtectionArc degrees="90" coveragePercent="30" piercingProtectionLevel="3"/>
+            <ProtectionArc degrees="270" coveragePercent="10" piercingProtectionLevel="1"/>
+            <ProtectionArc degrees="360" coveragePercent="30" piercingProtectionLevel="3"/>
+        </Params>
+    </Armor>
+	 <Bind eqp="Delta_Jacket_black_Concealed4">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="Delta_Jacket_black_Concealed4" inventoryBinding="Armor" unlockCost="0"
+            tooltip="Jacket Black + Concealed"
+           description="Concealable Level IIIA soft body armor worn with a jacket. Allows for covert operations, and offers some protection from handgun projectiles."
+            img="data/models/equipment/armor_softpanelsiiia_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+	<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/isa4.dds"/>
+            <RenderObject3D model="data/models/humans/attachments/cia_jacket.khm" diffuseTex="data/models/humans/attachments/cia_jacket_black.dds" windAnimated="1"/>
+        <MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="-3"/>
+        <ConcealmentModifier add="9"/>
+
+        <Params protectionInfoText="@equipment_protect1">
+            <ProtectionArc degrees="90" coveragePercent="30" piercingProtectionLevel="3"/>
+            <ProtectionArc degrees="270" coveragePercent="10" piercingProtectionLevel="1"/>
+            <ProtectionArc degrees="360" coveragePercent="30" piercingProtectionLevel="3"/>
+        </Params>
+    </Armor>
+	 <Bind eqp="Delta_Jacket_od_Concealed4">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="Delta_Jacket_od_Concealed4" inventoryBinding="Armor" unlockCost="0"
+            tooltip="Jacket OD + Concealed"
+           description="Concealable Level IIIA soft body armor worn with a jacket. Allows for covert operations, and offers some protection from handgun projectiles."
+            img="data/models/equipment/armor_softpanelsiiia_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+	<RenderObject3D model="data/models/humans/swat_militia.khm" diffuseTex="data/models/humans/isa4.dds"/>
+            <RenderObject3D model="data/models/humans/attachments/cia_jacket.khm" diffuseTex="data/models/humans/attachments/cia_jacket_od.dds" windAnimated="1"/>
+        <MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="-3"/>
+        <ConcealmentModifier add="9"/>
+
+        <Params protectionInfoText="@equipment_protect1">
+            <ProtectionArc degrees="90" coveragePercent="30" piercingProtectionLevel="3"/>
+            <ProtectionArc degrees="270" coveragePercent="10" piercingProtectionLevel="1"/>
+            <ProtectionArc degrees="360" coveragePercent="30" piercingProtectionLevel="3"/>
+        </Params>
+    </Armor>
+	
+	<!-----------------------------------------------ISA Vests--------------------------------------------->
+	
+	<Bind eqp="ISA_Armor_Jpc14">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="ISA_Armor_Jpc14" inventoryBinding="Armor" unlockCost="0"
+            tooltip="JPC Level III CB"
+            description="Plate carrier with Level III plates for low profile operations."
+            img="data/models/equipment/armor_jumpable_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="-5"/>
+	<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/isa4.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_cb.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+            <ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+            <ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+        </Params>
+    </Armor>
+
+	<Bind eqp="ISA_Armor_Jpc24">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="ISA_Armor_Jpc24" inventoryBinding="Armor" unlockCost="0"
+            tooltip="JPC Level III RG"
+            description="Plate carrier with Level III plates for low profile operations."
+            img="data/models/equipment/armor_jumpable_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="-5"/>
+	<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/isa4.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_rg.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+            <ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+            <ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+        </Params>
+    </Armor>
+
+	<Bind eqp="ISA_Armor_Jpc34">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="ISA_Armor_Jpc34" inventoryBinding="Armor" unlockCost="0"
+            tooltip="JPC Level III Black"
+            description="Plate carrier with Level III plates for low profile operations."
+            img="data/models/equipment/armor_jumpable_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="-5"/>
+	<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/isa4.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/jpc.khm" diffuseTex="data/models/humans/attachments/jpc_blk.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="4"/>
+            <ProtectionArc degrees="270" coveragePercent="0" piercingProtectionLevel="0"/>
+            <ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="4"/>
+        </Params>
+    </Armor>
+
+	<Bind eqp="ISA_Armor_Concealed4">
+        <to name="isa4"/>
+		
+        </Bind>
+	<Armor name="ISA_Armor_Concealed4" inventoryBinding="Armor" unlockCost="0"
+            tooltip="Concealed Vest"
+           description="Concealable Level IIIA soft body armor. Allows for covert operations, and offers some protection from handgun projectiles."
+            img="data/models/equipment/armor_softleveliiia_ui.dds"
+            img_tooltip="data/models/equipment/armor_01_ui_ttip.tga"
+        >
+        <MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-1"/>
+        <ConcealmentModifier add="8"/>
+	<RenderObject3D model="data/models/humans/ranger_shortsleeve.khm" diffuseTex="data/models/humans/isa4.dds"/>
+
+        <Params protectionInfoText="@equipment_protect2">
+            <ProtectionArc degrees="90" coveragePercent="30" piercingProtectionLevel="3"/>
+            <ProtectionArc degrees="270" coveragePercent="10" piercingProtectionLevel="1"/>
+            <ProtectionArc degrees="360" coveragePercent="30" piercingProtectionLevel="3"/>
+        </Params>
+    </Armor>
+	
+
+	
+</Equipment> 

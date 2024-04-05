@@ -1,0 +1,450 @@
+<Entities>
+	<Entity name="cag1" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<!--RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--RenderObject3D model="data/models/humans/attachments/enemy_head_beard.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_vest.khm" diffuseTex="data/models/humans/attachments/ranger_grenadier_vest_od.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag1">
+
+			<Id name="cag 1" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d_CAG"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_delta_mc+mc"/>
+				<Item name="delta_FASTXP_MC"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="cag2" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_02.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_tan_us.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag2">
+
+			<Id name="cag 2" portrait="data/textures/portraits/ranger1.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d_CAG"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_delta_mc+mc"/>
+				<Item name="delta_FASTXP_MC"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="cag3" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_01.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/enemy_head_beard.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag3">
+
+			<Id name="cag 3" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d_CAG"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_delta_mc+mc"/>
+				<Item name="delta_FASTXP_MC"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="cag4" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<!--RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_us.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_vest.khm" diffuseTex="data/models/humans/attachments/ranger_grenadier_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag4">
+
+			<Id name="cag 4" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d_CAG"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_delta_mc+mc"/>
+				<Item name="delta_FASTXP_MC"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="cag5" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_02.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/enemy_head_beard.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_us.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag5">
+
+			<Id name="cag 5" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_devgru_aor1+mc"/>
+				<Item name="delta_FASTMT_AOR1"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="cag6" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<!--RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_vest.khm" diffuseTex="data/models/humans/attachments/ranger_grenadier_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag6">
+
+			<Id name="cag 6" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_devgru_aor1+mc"/>
+				<Item name="delta_FASTMT_AOR1"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="cag7" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>7
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_tan_us.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_vest.khm" diffuseTex="data/models/humans/attachments/ranger_grenadier_vest_tan.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag7">
+
+			<Id name="cag 7" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_devgru_aor1+mc"/>
+				<Item name="delta_FASTMT_AOR1"/>
+				<Item name="Crowbar"/>
+
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="cag8" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/vest_jpc_holster.khm" attachSlot="prop_sidearm" skipGOSSAO="true" diffuseTex="data/models/humans/attachments/vest_jpc_acces_mc.dds"/>
+		<!--RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_grenadier_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_us.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="cag8">
+
+			<Id name="cag 8" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="110" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.40" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="17" max="20"/>
+			</Mobility>
+			
+			<!--<Concealment default="3"/>-->
+
+			<Equipment>
+				<Item name="delta_iov_hk416d"/>
+				<Item name="IronSights"/>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="Flashbang"/>
+				<Item name="Slap Charge"/>
+				<Item name="jpcIV_devgru_aor1+mc"/>
+				<Item name="delta_FASTMT_AOR1"/>
+				<Item name="Crowbar"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="isa1" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/enemy_head_beard.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="isa1">
+
+			<Id name="ISA 1" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.5" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="13" max="17"/>
+			</Mobility>
+
+			<Concealment canHide="true"/>
+
+			<Equipment>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="ISA_Armor_Concealed1"/>
+
+				<Item name="Lockpick"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="isa2" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="isa2">
+
+			<Id name="ISA 2" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.5" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="13" max="17"/>
+			</Mobility>
+
+			<Concealment canHide="true"/>
+
+			<Equipment>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="ISA_Armor_Concealed2"/>
+
+				<Item name="Lockpick"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="isa3" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/enemy_head_beard.khm" diffuseTex="data/models/humans/attachments/enemy_head.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="isa3">
+
+			<Id name="ISA 3" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.5" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="13" max="17"/>
+			</Mobility>
+
+			<Concealment canHide="true"/>
+
+			<Equipment>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="ISA_Armor_Concealed3"/>
+
+				<Item name="Lockpick"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	<Entity name="isa4" type="Human" editorAutoHeight="false">
+		<RenderObject3D model="data/models/humans/cubebody.khm" diffuseTex=""/>
+		<RenderObject3D model="data/models/humans/attachments/cia_scarf.khm" diffuseTex="data/models/humans/attachments/cia_scarf_beret_03.dds"/>
+		<!--<RenderObject3D model="data/models/humans/attachments/swat_sapper_helmet.khm" diffuseTex="data/models/humans/attachments/ranger_helmet_mc_fw.dds" attachSlot="Bip001 Head">
+			<Specular shininess="8" intensity="1.3"/>
+		</RenderObject3D>-->
+		<!--<RenderObject3D model="data/models/humans/attachments/ranger_assaulter_vest.khm" diffuseTex="data/models/humans/attachments/ranger_assaulter_vest_mc.dds"/>-->
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>		
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="Delta"
+			class="isa4">
+
+			<Id name="ISA 4" portrait="data/textures/portraits/ranger4.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+			<Brain suppressionRecovery="30.0"/>
+			<!-- mobility can be changed by the current equipment, in the specified range -->
+			<Mobility>
+					<MoveSpeed min="1.1" defaultMetersPerSec="2.5" max="14"/>
+				<TurnSpeed min="10" defaultMetersPerSec="13" max="17"/>
+			</Mobility>
+
+			<Concealment canHide="true"/>
+
+			<Equipment>
+				<Item name="G19X Pistol"/>
+				<Item name="IronSights_Pistol"/>
+				<Item name="ISA_Armor_Concealed4"/>
+
+				<Item name="Lockpick"/>
+			</Equipment>
+		</Human>
+	</Entity>
+</Entities>

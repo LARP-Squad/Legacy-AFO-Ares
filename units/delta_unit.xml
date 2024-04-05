@@ -1,0 +1,67 @@
+<Units>
+    <!--
+        'name' uniquely identifies this unit throughout the xml files (like in humans.xml)
+        'nameUI' is the localized version that shows up in the game's UI, therefore it's not unique		
+		'@#squadnamebabyseals' refers to the pool of random names assigned to a new BabySeals squad, defined in data/localization/seals_squadname_pool.txt
+		'supply' is how much a single trooper from that class will count in total supply allowed for a map. One slot = 100 supply
+    -->
+    <Unit
+        name="Delta"
+        nameUI="JSOC AFO Ares"
+        description="JSOC AFO team composed of a joint 1st SFOD-D/DEVGRU Direct Action element, and an ISA intelligence element."
+        flagTex="data/textures/jsocela_squad_bg.dds"
+        flagColor="2D2D2D"
+        rndNameEntry="@#squadnamejsocela">
+
+        <Classes>
+			<!--
+				'name' links to a human defined in seals_humans.xml
+				'nameUI' is the localized version that shows up in the game's UI, therefore it's not unique
+			-->
+            <Class name="cag1"       nameUI="Team Lead"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_delta.dds"/>
+            <Class name="cag2"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_delta.dds"/>
+            <Class name="cag3"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_delta.dds"/>
+            <Class name="cag4"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_delta.dds"/>
+            <Class name="cag5"       nameUI="Team Lead"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_devgru.dds"/>
+            <Class name="cag6"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_devgru.dds"/>
+            <Class name="cag7"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_devgru.dds"/>
+            <Class name="cag8"       nameUI="Assaulter"      numSlots="1"  supply="100" iconTex="data/textures/gui/deploy/class_icon_devgru.dds"/>
+            <Class name="isa1"       nameUI="SIGINT"         numSlots="1"  supply="50"  iconTex="data/textures/gui/deploy/class_icon_isa.dds"/>
+            <Class name="isa2"       nameUI="SIGINT"         numSlots="1"  supply="50"  iconTex="data/textures/gui/deploy/class_icon_isa.dds"/>
+            <Class name="isa3"       nameUI="HUMINT"         numSlots="1"  supply="50"  iconTex="data/textures/gui/deploy/class_icon_isa.dds"/>
+            <Class name="isa4"       nameUI="HUMINT"         numSlots="1"  supply="50"  iconTex="data/textures/gui/deploy/class_icon_isa.dds"/>
+        </Classes>
+
+        <TrooperRanks>
+            <Rank name="Profiency 1" xpNeeded="0"         badgeTex="data/textures/gui/customization/jsoc_rank_01.dds"/>
+            <Rank name="Profiency 2" xpNeeded="700"       badgeTex="data/textures/gui/customization/jsoc_rank_02.dds"/>
+            <Rank name="Profiency 3" xpNeeded="2300"      badgeTex="data/textures/gui/customization/jsoc_rank_03.dds"/>
+            <Rank name="Profiency 4" xpNeeded="5600"      badgeTex="data/textures/gui/customization/jsoc_rank_04.dds"/>
+            <Rank name="Profiency 5" xpNeeded="11800"     badgeTex="data/textures/gui/customization/jsoc_rank_05.dds"/>
+            <Rank name="Profiency 6" xpNeeded="22400"     badgeTex="data/textures/gui/customization/jsoc_rank_06.dds"/>
+            <Rank name="Profiency 7" xpNeeded="38400"     badgeTex="data/textures/gui/customization/jsoc_rank_07.dds"/>
+            <Rank name="Profiency 8" xpNeeded="60200"     badgeTex="data/textures/gui/customization/jsoc_rank_08.dds"/>
+            <Rank name="Profiency 9" xpNeeded="86400"     badgeTex="data/textures/gui/customization/jsoc_rank_09.dds"/>
+            <Rank name="Profiency 10" xpNeeded="126400"   badgeTex="data/textures/gui/customization/jsoc_rank_10.dds"/>
+        </TrooperRanks>
+		
+		<Ranks>
+            <Rank xpNeeded="0"      badgeTex=""/>
+            <Rank xpNeeded="4000"   badgeTex=""/>
+            <Rank xpNeeded="9000"   badgeTex=""/>
+            <Rank xpNeeded="14980"  badgeTex=""/>
+            <Rank xpNeeded="21920"  badgeTex=""/>
+            <Rank xpNeeded="29800"  badgeTex=""/>
+            <Rank xpNeeded="38600"  badgeTex=""/>
+            <Rank xpNeeded="48310"  badgeTex=""/>
+            <Rank xpNeeded="58900"  badgeTex=""/>
+            <Rank xpNeeded="70360"  badgeTex=""/>
+            <Rank xpNeeded="82680"  badgeTex=""/>
+            <Rank xpNeeded="95820"  badgeTex=""/>
+            <Rank xpNeeded="109790" badgeTex=""/>
+            <Rank xpNeeded="124550" badgeTex=""/>
+            <Rank xpNeeded="140100" badgeTex=""/>
+            <Rank xpNeeded="156420" badgeTex=""/>
+        </Ranks>
+    </Unit>
+</Units>
