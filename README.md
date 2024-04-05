@@ -1,2 +1,1 @@
-# AFO-Ares
- 
+# Legacy: AFO Ares
